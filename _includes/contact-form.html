@@ -1,0 +1,113 @@
+<div class="contact-form">
+  <h3>Trimite-ne un mesaj</h3>
+  <p>Completează formularul de mai jos și îți vom răspunde în termen de 24 de ore.</p>
+  
+  <form action="https://formspree.io/f/xkgkngwa" method="POST" class="form">
+    <div class="form-group">
+      <label for="name">Nume *</label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="email">Email *</label>
+      <input type="email" name="email" id="email" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="company">Companie</label>
+      <input type="text" name="company" id="company">
+    </div>
+    
+    <div class="form-group">
+      <label for="phone">Telefon</label>
+      <input type="tel" name="phone" id="phone">
+    </div>
+    
+    <div class="form-group">
+      <label for="service">Serviciul de Interes</label>
+      <select name="service" id="service">
+        <option value="">Alege un serviciu</option>
+        <option value="contabilitate">Contabilitate & Fiscalitate</option>
+        <option value="hr">HR Administrativ & Salarizare</option>
+        <option value="ssm">SSM & Servicii Juridice</option>
+        <option value="onrc">ONRC - Înființări & Modificări</option>
+        <option value="consultation">Consultanță Generală</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="message">Mesaj *</label>
+      <textarea name="message" id="message" rows="5" required placeholder="Spune-ne despre nevoile afacerii tale..."></textarea>
+    </div>
+    
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary">Trimite Mesaj</button>
+    </div>
+    
+    <input type="hidden" name="_next" value="{{ site.url }}/thank-you/">
+    <input type="hidden" name="_subject" value="New Contact Form Submission">
+  </form>
+</div>
+
+<style>
+.contact-form {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.contact-form h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+</style>

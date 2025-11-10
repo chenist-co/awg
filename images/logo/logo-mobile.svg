@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo-mobile</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-mobile">
+            <circle cx="27" cy="27" r="24" fill="white" stroke="white" stroke-width="2"></circle>
+            <text x="27" y="33" fill="#1B365D" font-family="Playfair Display, serif" font-size="24" font-weight="600" text-anchor="middle">A</text>
+        </g>
+    </g>
+</svg>

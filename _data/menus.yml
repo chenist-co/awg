@@ -1,0 +1,24 @@
+main:
+  - name: "Servicii"
+    url: "/servicii/"
+    weight: 2
+  - name: "Oferta"
+    url: "/solicita-oferta/"
+    weight: 3
+  - name: "Despre Noi"
+    url: "/despre/"
+    weight: 4
+  - name: "Locații"
+    url: "/locatii/"
+    weight: 5
+  - name: "Contact"
+    url: "/contact/"
+    weight: 6
+
+footer:
+  - name: "Acasă"
+    url: "/"
+    weight: 1
+  - name: "Contact"
+    url: "/contact/"
+    weight: 2

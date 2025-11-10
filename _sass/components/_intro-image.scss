@@ -1,0 +1,55 @@
+.intro-image {
+  width: 100%;
+  height: auto;
+  margin-top: -40px;
+}
+.intro-image-absolute {
+  max-width: none;
+
+  padding: 0;
+  margin-bottom: 30px;
+  @include media-breakpoint-up(sm) {
+  }
+  @include media-breakpoint-up(md) {
+    position: absolute;
+    bottom: -80px;
+    left: -50px;
+    width: 600px;
+    max-height: 400px;
+    object-fit: contain;
+  }
+  @include media-breakpoint-up(lg) {
+    bottom: -100px;
+    left: -60px;
+    width: 700px;
+    max-height: 450px;
+  }
+  @include media-breakpoint-up(xl) {
+    bottom: -120px;
+    left: -70px;
+    width: 750px;
+    max-height: 500px;
+  }
+}
+
+// Homepage-specific positioning (no breadcrumbs = needs lower positioning)
+.page-home .intro-image-absolute {
+  @include media-breakpoint-up(md) {
+    bottom: -140px;
+    left: -50px;
+  }
+  @include media-breakpoint-up(lg) {
+    bottom: -160px;
+    left: -60px;
+  }
+  @include media-breakpoint-up(xl) {
+    bottom: -180px;
+    left: -70px;
+  }
+}
+.intro-image-hide-mobile {
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+}

@@ -1,0 +1,109 @@
+<div class="breadcrumbs">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb-list">
+        <li class="breadcrumb-item">
+          <a href="/">Acasă</a>
+        </li>
+        
+        {% assign url_parts = page.url | split: '/' %}
+        {% assign breadcrumb_path = '' %}
+        
+        {% for part in url_parts %}
+          {% if part != '' %}
+            {% assign breadcrumb_path = breadcrumb_path | append: '/' | append: part %}
+            
+            {% if forloop.last %}
+              <li class="breadcrumb-item active" aria-current="page">
+                {% if page.collection == 'services' %}
+                  {% case part %}
+                    {% when 'contabilitate' %}
+                      Contabilitate & Fiscalitate
+                    {% when 'hr' %}
+                      HR Administrativ & Salarizare
+                    {% when 'ssm' %}
+                      SSM & Servicii Juridice
+                    {% when 'onrc' %}
+                      ONRC - Înființări & Modificări
+                    {% else %}
+                      {{ page.title }}
+                  {% endcase %}
+                {% elsif part == 'despre' %}
+                  Despre Noi
+                {% elsif part == 'echipa' %}
+                  Echipa
+                {% elsif part == 'contact' %}
+                  Contact
+                {% elsif part == 'locatii' %}
+                  Locații
+                {% elsif part == 'servicii' %}
+                  Servicii
+                {% else %}
+                  {{ page.title | default: part | capitalize }}
+                {% endif %}
+              </li>
+            {% else %}
+              <li class="breadcrumb-item">
+                {% if part == 'servicii' %}
+                  <a href="/servicii/">Servicii</a>
+                {% elsif part == 'despre' %}
+                  <a href="/despre/">Despre Noi</a>
+                {% elsif part == 'echipa' %}
+                  <a href="/despre/echipa/">Echipa</a>
+                {% elsif part == 'contact' %}
+                  <a href="/contact/">Contact</a>
+                {% elsif part == 'locatii' %}
+                  <a href="/locatii/">Locații</a>
+                {% else %}
+                  <a href="{{ breadcrumb_path }}">{{ part | capitalize }}</a>
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<style>
+.breadcrumbs {
+  background: #f8f9fa;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.breadcrumb-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  padding: 0 0.5rem;
+  color: #6c757d;
+}
+
+.breadcrumb-item a {
+  color: #1B365D;
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  color: #0d1929;
+  text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+  color: #6c757d;
+}
+</style>
