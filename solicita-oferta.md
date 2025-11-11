@@ -5,13 +5,13 @@ permalink: /solicita-oferta/
 description: Obține o ofertă detaliată pentru servicii de contabilitate, HR, fiscalitate și administrare de afaceri adaptate nevoilor companiei tale.
 ---
 
-# Soluții Complete și Profesionale pentru Afacerea Ta
+# Soluții Complete și Profesionale pentru Afacerea Ta {#soluții-complete-și-profesionale}
 
 ## Obține o ofertă detaliată în cel mai scurt timp
 
 Alege din pachetele noastre de servicii sau solicită o ofertă personalizată adaptată perfect nevoilor specifice ale afacerii tale. Toate pachetele includ consultanță specializată și suport complet.
 
-<div class="packages-section">
+<div class="packages-section" id="pachete-de-servicii">
   <h2>Pachete de Servicii</h2>
   <p class="section-subtitle">Alege pachetul potrivit nevoilor afacerii tale</p>
   
@@ -96,7 +96,7 @@ Alege din pachetele noastre de servicii sau solicită o ofertă personalizată a
 
 ---
 
-## Solicită Ofertă Personalizată
+## Solicită Ofertă Personalizată {#solicită-ofertă-personalizată}
 
 Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată nevoilor companiei tale:
 
@@ -493,7 +493,7 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
 </style>
 
 <div class="advantages-section">
-  <h2>Avantajele Colaborării cu AWG Consulting</h2>
+  <h2 id="avantajele-colaborării">Avantajele Colaborării cu AWG Consulting</h2>
   
   <div class="advantages-grid">
     <div class="advantage-item">
@@ -548,7 +548,7 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
 
 ---
 
-## De Ce Să Alegi AWG Consulting?
+## De Ce Să Alegi AWG Consulting? {#de-ce-să-alegi-awg-consulting}
 
 Suntem o echipă de profesioniști dedicați să îți oferim cele mai bune servicii administrative pentru afacerea ta. Cu experiența noastră vastă și abordarea personalizată, îți garantăm:
 

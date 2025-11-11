@@ -32,12 +32,26 @@ bodyClass: "page-basic"
                 </nav>
             </div>
         </div>
+        {% elsif page.url == '/solicita-oferta/' %}
+        <div class="col-12 col-md-4">
+            <div class="toc-sidebar">
+                <nav class="toc-nav">
+                    <ul class="toc-list">
+                        <li><a href="#soluții-complete-și-profesionale">Soluții Complete</a></li>
+                        <li><a href="#pachete-de-servicii">Pachete de Servicii</a></li>
+                        <li><a href="#solicită-ofertă-personalizată">Solicită Ofertă</a></li>
+                        <li><a href="#avantajele-colaborării">Avantajele Colaborării</a></li>
+                        <li><a href="#de-ce-să-alegi-awg-consulting">De Ce AWG Consulting</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
         {% endif %}
     </div>
 </div>
 
 <style>
-{% if page.url == '/despre/' %}
+{% if page.url == '/despre/' or page.url == '/solicita-oferta/' %}
 .toc-sidebar {
     position: sticky;
     top: 2rem;
