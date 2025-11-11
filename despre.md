@@ -166,23 +166,25 @@ permalink: /despre/
     <h3>Partenerii Noștri</h3>
   </div>
   <div class="section-content">
-    <p>Colaborăm cu companii și organizații de top pentru a ne asigura că clienții noștri primesc cele mai complete și actualizate servicii disponibile. Rețeaua noastră de parteneri strategici ne permite să oferim soluții care depășesc serviciile tradiționale de consultanță.</p>
+    <p>Colaborăm cu companii de renume pentru a oferi servicii de calitate superioară</p>
     
-    <div class="partners-grid">
-      <div class="partner-card">
-        <div class="partner-icon">🔧</div>
-        <h4>NextM</h4>
-        <p>Soluții moderne pentru afaceri</p>
+    <div class="partners-homepage-grid">
+      <div class="partner-logo-card">
+        <a href="https://rovision.ro/" target="_blank" rel="noopener" class="partner-link">
+          <img src="/assets/img/rovision-logo.jpg" alt="Rovision - Partner AWG Consulting" class="partner-logo">
+        </a>
       </div>
-      <div class="partner-card">
-        <div class="partner-icon">🔍</div>
-        <h4>Rovision</h4>
-        <p>Servicii specializate</p>
+      
+      <div class="partner-logo-card">
+        <a href="https://nextm.ro/" target="_blank" rel="noopener" class="partner-link">
+          <img src="/assets/img/nextm-logo.png" alt="NextM - Partner AWG Consulting" class="partner-logo">
+        </a>
       </div>
-      <div class="partner-card">
-        <div class="partner-icon">📊</div>
-        <h4>Rofixon</h4>
-        <p>Partener de dezvoltare strategică</p>
+      
+      <div class="partner-logo-card">
+        <a href="https://rofixon.ro/" target="_blank" rel="noopener" class="partner-link">
+          <img src="/assets/img/rofixon-logo.jpg" alt="Rofixon - Partner AWG Consulting" class="partner-logo">
+        </a>
       </div>
     </div>
   </div>
@@ -489,43 +491,46 @@ AWG Consulting este certificată conform standardelor internaționale de managem
   line-height: 1.5;
 }
 
-/* Partners Grid */
-.partners-grid {
+/* Partners Grid - Homepage Style */
+.partners-homepage-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
+  gap: 2rem;
+  margin: 2rem 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.partner-card {
-  background: var(--card-bg, #f8f9fa);
-  border-radius: 8px;
-  padding: 1.5rem;
+.partner-logo-card {
+  position: relative;
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
   text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
 }
 
-.partner-card:hover {
+.partner-logo-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
-.partner-icon {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.partner-link {
+  display: block;
+  text-decoration: none;
+  position: relative;
 }
 
-.partner-card h4 {
-  color: #1B365D;
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-
-.partner-card p {
-  color: #666;
-  font-size: 0.9rem;
-  margin: 0;
+.partner-logo {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  object-fit: contain;
 }
 
 /* Certifications Grid */
@@ -626,9 +631,18 @@ AWG Consulting este certificată conform standardelor internaționale de managem
   .approach-grid,
   .commitment-grid,
   .locations-cards,
-  .partners-grid {
+  .partners-homepage-grid {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  
+  .partner-logo-card {
+    padding: 1.5rem;
+    
+    .partner-logo {
+      max-width: 120px;
+    }
   }
   
   .differentiators-grid {
