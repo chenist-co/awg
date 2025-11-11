@@ -1,15 +1,57 @@
-# Jekyll Serif Theme
+# AWG Consulting Website
 
-Serif is a modern business theme for Jekyll. It contains multiple content types for a typical brochure/marketing website. The theme is fully responsive, blazing fast and artfully illustrated.
+Professional Romanian business website built with Jekyll. Complete with Romanian translations, custom domain support, and modern flat design.
 
-[Live Demo](https://jekyll-serif.netlify.app/) |
-[Zerostatic Themes](https://www.zerostatic.io)
+🌐 **Live Site:** [https://awg.chen.ist](https://awg.chen.ist)
 
-<a href="https://www.buymeacoffee.com/zerostatic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+![AWG Consulting Website](images/logo/logo.svg)
 
-![Jekyll Serif Theme screenshot](https://www.zerostatic.io/theme/jekyll-serif/jekyll-serif-screenshot.png)
+## Quick Start
 
-### Theme features
+### Development Server
+```bash
+./run.sh
+# or
+./run.sh serve
+```
+Site available at: http://localhost:4000
+
+### Build for Production
+```bash
+./run.sh production
+```
+
+## Available Commands
+
+| Command | Description |
+|---------|-------------|
+| `./run.sh` or `./run.sh serve` | Start development server with live reload |
+| `./run.sh build` | Build the site for testing |
+| `./run.sh production` | Build optimized production version |
+| `./run.sh install` | Install Ruby dependencies |
+| `./run.sh clean` | Clean build files and cache |
+| `./run.sh lint` | Check Jekyll configuration |
+| `./run.sh help` | Show all available commands |
+
+## Manual Commands
+
+If you prefer to run Jekyll commands manually:
+
+```bash
+# Install dependencies
+bundle install
+
+# Development server
+bundle exec jekyll serve --host=0.0.0.0 --port=4000 --watch
+
+# Build site
+bundle exec jekyll build
+
+# Production build
+JEKYLL_ENV=production bundle exec jekyll build
+```
+
+## Features
 
 - Jekyll 4.2+
 - Netlify & Github Pages ready
