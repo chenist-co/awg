@@ -46,12 +46,40 @@ bodyClass: "page-basic"
                 </nav>
             </div>
         </div>
+        {% elsif page.url == '/locatii/' %}
+        <div class="col-12 col-md-4">
+            <div class="toc-sidebar">
+                <nav class="toc-nav">
+                    <ul class="toc-list">
+                        <li><a href="#locațiile-awg-consulting">Locațiile AWG Consulting</a></li>
+                        <li><a href="#biroul-buftea">Biroul Buftea</a></li>
+                        <li><a href="#biroul-pipera">Biroul Pipera</a></li>
+                        <li><a href="#program-de-lucru">Program de Lucru</a></li>
+                        <li><a href="#modalități-de-contact">Modalități de Contact</a></li>
+                        <li><a href="#de-ce-să-ne-alegi">De Ce Să Ne Alegi</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        {% elsif page.url == '/contact/' %}
+        <div class="col-12 col-md-4">
+            <div class="toc-sidebar">
+                <nav class="toc-nav">
+                    <ul class="toc-list">
+                        <li><a href="#ia-legătura-cu-noi">Ia Legătura cu Noi</a></li>
+                        <li><a href="#program-de-lucru">Program de Lucru</a></li>
+                        <li><a href="#locațiile-birourilor">Locațiile Birourilor</a></li>
+                        <li><a href="#de-ce-să-alegi-awg-consulting">De Ce AWG Consulting</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
         {% endif %}
     </div>
 </div>
 
 <style>
-{% if page.url == '/despre/' or page.url == '/solicita-oferta/' %}
+{% if page.url == '/despre/' or page.url == '/solicita-oferta/' or page.url == '/locatii/' or page.url == '/contact/' %}
 .toc-sidebar {
     position: sticky;
     top: 2rem;

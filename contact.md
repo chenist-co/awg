@@ -4,11 +4,11 @@ layout: contact
 description: Contactați-ne pentru servicii specializate de contabilitate, fiscalitate, HR și administrare de afaceri în România
 ---
 
-# Ia Legătura cu Noi
+# Ia Legătura cu Noi {#ia-legătura-cu-noi}
 
 Suntem aici să te ajutăm să navighezi prin complexitatea administrării afacerilor în România. Contactează-ne astăzi pentru a discuta cum putem susține creșterea afacerii tale.
 
-## Program de Lucru
+## Program de Lucru {#program-de-lucru}
 
 | Ziua      | Orele de Program |
 | --------- | --------------- |
@@ -20,12 +20,12 @@ Suntem aici să te ajutăm să navighezi prin complexitatea administrării aface
 | Sâmbătă   | Prin programare |
 | Duminică  | Închis          |
 
-## Locațiile Birourilor
+## Locațiile Birourilor {#locațiile-birourilor}
 
 **Biroul Buftea**: Str. Șaua Verde nr. 8, Județul Ilfov  
 **Biroul Pipera**: Str. Costache Radu nr. 6F, Județul Ilfov
 
-## De Ce Să Alegi AWG Consulting?
+## De Ce Să Alegi AWG Consulting? {#de-ce-să-alegi-awg-consulting}
 
 - **Experiență Solidă**: Companie românească cu experiență în contabilitate, fiscalitate și legislația muncii
 - **Servicii Complete**: Soluții integrate pentru toate nevoile administrative

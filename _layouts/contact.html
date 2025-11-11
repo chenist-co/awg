@@ -8,6 +8,7 @@ bodyClass: "page-contact"
 
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
     <div class="row justify-content-start">
+        {% if page.url == '/contact/' %}
         <div class="col-12 col-md-8">
             <div class="service service-single">
                 <h1 class="title">{{page.title}}</h1>
@@ -20,5 +21,31 @@ bodyClass: "page-contact"
                 {% include contact-form.html %}
             </div>
         </div>
+        <div class="col-12 col-md-4">
+            <div class="toc-sidebar">
+                <nav class="toc-nav">
+                    <ul class="toc-list">
+                        <li><a href="#ia-legătura-cu-noi">Ia Legătura cu Noi</a></li>
+                        <li><a href="#program-de-lucru">Program de Lucru</a></li>
+                        <li><a href="#locațiile-birourilor">Locațiile Birourilor</a></li>
+                        <li><a href="#de-ce-să-alegi-awg-consulting">De Ce Să Alegi AWG Consulting?</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        {% else %}
+        <div class="col-12 col-md-8">
+            <div class="service service-single">
+                <h1 class="title">{{page.title}}</h1>
+                {% include call.html show_button=false %}
+                <div class="content mt-4">{{content}}</div>
+                
+                <!-- Booking Widget -->
+                {% include booking-widget.html %}
+                
+                {% include contact-form.html %}
+            </div>
+        </div>
+        {% endif %}
     </div>
 </div>

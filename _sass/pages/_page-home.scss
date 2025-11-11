@@ -99,7 +99,7 @@
 }
 
 .content-section {
-  background: #fff;
+  background: #f8fbff;
   
   .content-column {
     padding: 1.5rem;
@@ -142,6 +142,7 @@
     border: 1px solid #e9ecef;
     border-radius: 8px;
     height: 100%;
+    background: white;
     transition: all 0.3s ease;
     
     &:hover {

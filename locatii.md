@@ -4,11 +4,11 @@ title: Locații
 permalink: /locatii/
 ---
 
-# Locațiile AWG Consulting
+# Locațiile AWG Consulting {#locațiile-awg-consulting}
 
 Suntem prezenti în județul Ilfov cu două birouri strategice poziționate pentru a deservi eficient clienții din toată regiunea de sud a României.
 
-## Biroul Buftea
+## Biroul Buftea {#biroul-buftea}
 
 **Adresa**: Str. Șaua Verde nr. 8, Buftea, Județul Ilfov
 
@@ -26,7 +26,7 @@ Toate serviciile AWG Consulting sunt disponibile la biroul din Buftea:
 - [SSM & Servicii Juridice](/servicii/ssm/)
 - [ONRC - Înființări & Modificări](/servicii/onrc/)
 
-## Biroul Pipera
+## Biroul Pipera {#biroul-pipera}
 
 **Adresa**: Str. Costache Radu nr. 6F, Sat Pipera, Județul Ilfov
 
@@ -44,13 +44,13 @@ Toate serviciile AWG Consulting sunt disponibile la biroul din Pipera:
 - [SSM & Servicii Juridice](/servicii/ssm/)
 - [ONRC - Înființări & Modificări](/servicii/onrc/)
 
-## Program de Lucru
+## Program de Lucru {#program-de-lucru}
 
 **Luni - Vineri**: 08:00 - 16:00  
 **Sâmbătă**: Prin programare  
 **Duminică**: Închis
 
-## Modalități de Contact
+## Modalități de Contact {#modalități-de-contact}
 
 **Telefon**: [0760 000 000](tel:0760000000)  
 **Email**: [office@awgconsulting.ro](mailto:office@awgconsulting.ro)
@@ -110,7 +110,7 @@ Pentru o consultație personalizată la oricare dintre birouri, vă rugăm să n
 
 În funcție de complexitatea proiectului și nevoile dvs., oferim și servicii de deplasare la sediul companiei dvs. pentru consultanță și servicii administrative.
 
-## De Ce Să Ne Alegi?
+## De Ce Să Ne Alegi? {#de-ce-să-ne-alegi}
 
 - **Prezență Locală**: Birouri strategice în județul Ilfov
 - **Accesibilitate**: Ușor de accesat din București și zonele învecinate
