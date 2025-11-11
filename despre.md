@@ -4,65 +4,189 @@ title: Despre Noi
 permalink: /despre/
 ---
 
-# Despre AWG Consulting
+<!-- Hero Section -->
+<div class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">Despre AWG Consulting</h1>
+    <h2 class="hero-subtitle">Partenerul tău de încredere în succesul afacerii</h2>
+    <p class="hero-description">AWG Consulting este o companie românească cu o experiență solidă în contabilitate, fiscalitate și legislația muncii, formată profesional în cadrul unor companii de top din domeniu.</p>
+  </div>
+</div>
 
-## Partenerul tău de încredere în succesul afacerii
+<!-- Mission Section -->
+<div class="flat-section mission-section">
+  <div class="section-icon">🎯</div>
+  <div class="section-content">
+    <h3>Misiunea Noastră</h3>
+    <p>Să simplificăm procesele birocratice complexe cu care se confruntă orice afacere, permițând antreprenorilor să se concentreze pe ceea ce contează cu adevărat - <strong>dezvoltarea și creșterea afacerii lor</strong>.</p>
+  </div>
+</div>
 
-AWG Consulting este o companie românească cu o experiență solidă în contabilitate, fiscalitate și legislația muncii, formată profesional în cadrul unor companii de top din domeniu. Echipa noastră aduce expertiza și standardele cele mai înalte în serviciile oferite.
+<!-- Values Section -->
+<div class="flat-section values-section">
+  <div class="section-header">
+    <div class="section-icon">💎</div>
+    <h3>Valorile Noastre</h3>
+  </div>
+  <div class="values-grid">
+    <div class="value-card">
+      <div class="value-icon">🏆</div>
+      <h4>Profesionalism</h4>
+      <p>Menținem standardele cele mai înalte în serviciile profesionale</p>
+    </div>
+    <div class="value-card">
+      <div class="value-icon">⚡</div>
+      <h4>Eficiență</h4>
+      <p>Optimizăm procesele pentru a economisi timpul și resursele clienților</p>
+    </div>
+    <div class="value-card">
+      <div class="value-icon">🔍</div>
+      <h4>Transparență</h4>
+      <p>Oferim consultanță clară, onestă și transparentă</p>
+    </div>
+    <div class="value-card">
+      <div class="value-icon">✅</div>
+      <h4>Conformitate</h4>
+      <p>Asigurăm conformitatea fiscală și legală permanent</p>
+    </div>
+  </div>
+</div>
 
-### Misiunea Noastră
+<!-- Approach Section -->
+<div class="flat-section approach-section">
+  <div class="section-header">
+    <div class="section-icon">🚀</div>
+    <h3>Abordarea Noastră</h3>
+  </div>
+  <div class="approach-grid">
+    <div class="approach-card">
+      <div class="approach-icon">👥</div>
+      <h4>Centrată pe Client</h4>
+      <p>Fiecare afacere este unică. Ne adaptăm serviciile pentru a răspunde nevoilor și provocărilor specifice ale fiecărui client.</p>
+    </div>
+    <div class="approach-card">
+      <div class="approach-icon">🛡️</div>
+      <h4>Suport Proactiv</h4>
+      <p>Nu ne limităm doar la rezolvarea problemelor - te ajutăm să le eviți prin planificare adecvată și conformitate.</p>
+    </div>
+    <div class="approach-card">
+      <div class="approach-icon">📚</div>
+      <h4>Expertiză Actualizată</h4>
+      <p>Echipa noastră este mereu la zi cu toate modificările legislative și fiscale care afectează afacerile din România.</p>
+    </div>
+    <div class="approach-card">
+      <div class="approach-icon">🔗</div>
+      <h4>Soluții Integrate</h4>
+      <p>Toate nevoile tale administrative sub un singur acoperiș, asigurând consistență și eficiență.</p>
+    </div>
+  </div>
+</div>
 
-Misiunea noastră este clară și concisă: **să simplificăm procesele birocratice complexe** cu care se confruntă orice afacere, permițând antreprenorilor să se concentreze pe ceea ce contează cu adevărat - **dezvoltarea și creșterea afacerii lor**.
+<!-- Presence Section -->
+<div class="flat-section presence-section">
+  <div class="section-header">
+    <div class="section-icon">📍</div>
+    <h3>Prezența Noastră</h3>
+  </div>
+  <div class="section-content">
+    <p>AWG Consulting menține birouri strategice în județul Ilfov, cu o prezență puternică în toată regiunea de sud a României. Această poziționare geografică ne permite să servim clienții eficient, menținând în același timp contactul personal care definește serviciile noastre.</p>
+    
+    <div class="locations-cards">
+      <div class="location-card">
+        <div class="location-icon">🏢</div>
+        <h4>Buftea, Ilfov</h4>
+        <p>Str. Șaua Verde nr. 8</p>
+      </div>
+      <div class="location-card">
+        <div class="location-icon">🏢</div>
+        <h4>Pipera, Ilfov</h4>
+        <p>Str. Costache Radu nr. 6F</p>
+      </div>
+    </div>
+    
+    <p class="locations-link"><a href="/locatii/">Vezi toate locațiile noastre →</a></p>
+  </div>
+</div>
 
-### Valorile Noastre
+<!-- Commitment Section -->
+<div class="flat-section commitment-section">
+  <div class="section-header">
+    <div class="section-icon">🤝</div>
+    <h3>Angajamentul Nostru</h3>
+  </div>
+  <div class="commitment-grid">
+    <div class="commitment-card">
+      <div class="commitment-icon">⭐</div>
+      <p>Menținem standardele cele mai înalte în serviciile profesionale</p>
+    </div>
+    <div class="commitment-card">
+      <div class="commitment-icon">💬</div>
+      <p>Oferim consultanță transparentă și onestă</p>
+    </div>
+    <div class="commitment-card">
+      <div class="commitment-icon">🔗</div>
+      <p>Construim parteneriate pe termen lung cu clienții noștri</p>
+    </div>
+    <div class="commitment-card">
+      <div class="commitment-icon">📈</div>
+      <p>Îmbunătățim și ne adaptăm continuu la mediul de afaceri în schimbare</p>
+    </div>
+  </div>
+</div>
 
-- **Profesionalism**: Menținem standardele cele mai înalte în serviciile profesionale
-- **Eficiență**: Optimizăm procesele pentru a economisi timpul și resursele clienților
-- **Transparență**: Oferim consultanță clară, onestă și transparentă
-- **Conformitate**: Asigurăm conformitatea fiscală și legală permanent
+<!-- Differentiators Section -->
+<div class="flat-section differentiators-section">
+  <div class="section-header">
+    <div class="section-icon">✨</div>
+    <h3>Ce Ne Face Diferiți</h3>
+  </div>
+  <div class="differentiators-grid">
+    <div class="differentiator-card">
+      <div class="differentiator-icon">🚀</div>
+      <h4>Mobilitate Operațională</h4>
+      <p>Oferim servicii flexibile, adaptate programului tău. Indiferent dacă preferi întâlniri la biroul nostru, la sediul companiei tale sau consultări remote, suntem aici pentru tine.</p>
+    </div>
+    <div class="differentiator-card">
+      <div class="differentiator-icon">💻</div>
+      <h4>Digitalizare</h4>
+      <p>Folosim cele mai moderne instrumente digitale pentru a eficientiza procesele administrative și a-ți oferi acces rapid la informațiile de care ai nevoie.</p>
+    </div>
+    <div class="differentiator-card">
+      <div class="differentiator-icon">🎯</div>
+      <h4>Experiență Solidă</h4>
+      <p>Formați în cadrul unor companii de top din industrie, aducem expertiza și know-how-ul necesar pentru a gestiona cele mai complexe situații administrative.</p>
+    </div>
+  </div>
+</div>
 
-### Abordarea Noastră
-
-**Centrată pe Client**: Fiecare afacere este unică. Ne adaptăm serviciile pentru a răspunde nevoilor și provocărilor specifice ale fiecărui client.
-
-**Suport Proactiv**: Nu ne limităm doar la rezolvarea problemelor - te ajutăm să le eviți prin planificare adecvată și conformitate.
-
-**Expertiză Actualizată**: Echipa noastră este mereu la zi cu toate modificările legislative și fiscale care afectează afacerile din România.
-
-**Soluții Integrate**: Toate nevoile tale administrative sub un singur acoperiș, asigurând consistență și eficiență.
-
-### Prezența Noastră
-
-AWG Consulting menține birouri strategice în județul Ilfov, cu o prezență puternică în toată regiunea de sud a României. Această poziționare geografică ne permite să servim clienții eficient, menținând în același timp contactul personal care definește serviciile noastre.
-
-**[Locațiile noastre](/locatii/)**:
-- **Buftea, Ilfov** - Str. Șaua Verde nr. 8
-- **Pipera, Ilfov** - Str. Costache Radu nr. 6F
-
-### Angajamentul Nostru
-
-Ne angajăm să:
-- Menținem standardele cele mai înalte în serviciile profesionale
-- Oferim consultanță transparentă și onestă
-- Construim parteneriate pe termen lung cu clienții noștri
-- Îmbunătățim și ne adaptăm continuu la mediul de afaceri în schimbare
-
-### Ce Ne Face Diferiți
-
-**Mobilitate Operațională**: Oferim servicii flexibile, adaptate programului tău. Indiferent dacă preferi întâlniri la biroul nostru, la sediul companiei tale sau consultări remote, suntem aici pentru tine.
-
-**Digitalizare**: Folosim cele mai moderne instrumente digitale pentru a eficientiza procesele administrative și a-ți oferi acces rapid la informațiile de care ai nevoie.
-
-**Experiență Solidă**: Formați în cadrul unor companii de top din industrie, aducem expertiza și know-how-ul necesar pentru a gestiona cele mai complexe situații administrative.
-
-### Partenerii Noștri
-
-Colaborăm cu companii și organizații de top pentru a ne asigura că clienții noștri primesc cele mai complete și actualizate servicii disponibile. Rețeaua noastră de parteneri strategici ne permite să oferim soluții care depășesc serviciile tradiționale de consultanță.
-
-Printre partenerii noștri se numără:
-- **NextM** - Soluții moderne pentru afaceri
-- **Rovision** - Servicii specializate
-- **Rofixon** - Partener de dezvoltare strategică
+<!-- Partners Section -->
+<div class="flat-section partners-section">
+  <div class="section-header">
+    <div class="section-icon">🤝</div>
+    <h3>Partenerii Noștri</h3>
+  </div>
+  <div class="section-content">
+    <p>Colaborăm cu companii și organizații de top pentru a ne asigura că clienții noștri primesc cele mai complete și actualizate servicii disponibile. Rețeaua noastră de parteneri strategici ne permite să oferim soluții care depășesc serviciile tradiționale de consultanță.</p>
+    
+    <div class="partners-grid">
+      <div class="partner-card">
+        <div class="partner-icon">🔧</div>
+        <h4>NextM</h4>
+        <p>Soluții moderne pentru afaceri</p>
+      </div>
+      <div class="partner-card">
+        <div class="partner-icon">🔍</div>
+        <h4>Rovision</h4>
+        <p>Servicii specializate</p>
+      </div>
+      <div class="partner-card">
+        <div class="partner-icon">📊</div>
+        <h4>Rofixon</h4>
+        <p>Partener de dezvoltare strategică</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 ### Certificări
 
