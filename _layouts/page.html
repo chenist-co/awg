@@ -13,5 +13,89 @@ bodyClass: "page-basic"
                 <div class="content">{{content}}</div>
             </div>
         </div>
+        {% if page.url == '/despre/' %}
+        <div class="col-12 col-md-4">
+            <div class="toc-sidebar">
+                <h4>Cuprins</h4>
+                <nav class="toc-nav">
+                    <ul class="toc-list">
+                        <li><a href="#despre-awg-consulting">Despre AWG Consulting</a></li>
+                        <li><a href="#misiunea-noastră">Misiunea Noastră</a></li>
+                        <li><a href="#valorile-noastre">Valorile Noastre</a></li>
+                        <li><a href="#abordarea-noastră">Abordarea Noastră</a></li>
+                        <li><a href="#prezența-noastră">Prezența Noastră</a></li>
+                        <li><a href="#angajamentul-nostru">Angajamentul Nostru</a></li>
+                        <li><a href="#ce-ne-face-diferiți">Ce Ne Face Diferiți</a></li>
+                        <li><a href="#partenerii-noștri">Partenerii Noștri</a></li>
+                        <li><a href="#certificări">Certificări</a></li>
+                        <li><a href="#consultant-principal">Consultant Principal</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        {% endif %}
     </div>
 </div>
+
+<style>
+{% if page.url == '/despre/' %}
+.toc-sidebar {
+    position: sticky;
+    top: 2rem;
+    background: var(--card-bg, #f8f9fa);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.toc-sidebar h4 {
+    color: #1B365D;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #1B365D;
+    padding-bottom: 0.5rem;
+}
+
+.toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-list li {
+    margin-bottom: 0.5rem;
+}
+
+.toc-list a {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: block;
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.toc-list a:hover {
+    color: #1B365D;
+    background-color: rgba(27, 54, 93, 0.1);
+    text-decoration: none;
+}
+
+.toc-list a.active {
+    color: #1B365D;
+    background-color: rgba(27, 54, 93, 0.15);
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .toc-sidebar {
+        position: static;
+        margin-top: 2rem;
+        order: -1;
+    }
+}
+{% endif %}
+</style>

@@ -5,7 +5,7 @@ permalink: /despre/
 ---
 
 <!-- Hero Section -->
-<div class="hero-section">
+<div class="hero-section" id="despre-awg-consulting">
   <div class="hero-content">
     <h1 class="hero-title">Despre AWG Consulting</h1>
     <h2 class="hero-subtitle">Partenerul tău de încredere în succesul afacerii</h2>
@@ -14,7 +14,7 @@ permalink: /despre/
 </div>
 
 <!-- Mission Section -->
-<div class="flat-section mission-section">
+<div class="flat-section mission-section" id="misiunea-noastră">
   <div class="section-icon">🎯</div>
   <div class="section-content">
     <h3>Misiunea Noastră</h3>
@@ -23,7 +23,7 @@ permalink: /despre/
 </div>
 
 <!-- Values Section -->
-<div class="flat-section values-section">
+<div class="flat-section values-section" id="valorile-noastre">
   <div class="section-header">
     <div class="section-icon">💎</div>
     <h3>Valorile Noastre</h3>
@@ -53,7 +53,7 @@ permalink: /despre/
 </div>
 
 <!-- Approach Section -->
-<div class="flat-section approach-section">
+<div class="flat-section approach-section" id="abordarea-noastră">
   <div class="section-header">
     <div class="section-icon">🚀</div>
     <h3>Abordarea Noastră</h3>
@@ -83,7 +83,7 @@ permalink: /despre/
 </div>
 
 <!-- Presence Section -->
-<div class="flat-section presence-section">
+<div class="flat-section presence-section" id="prezența-noastră">
   <div class="section-header">
     <div class="section-icon">📍</div>
     <h3>Prezența Noastră</h3>
@@ -109,7 +109,7 @@ permalink: /despre/
 </div>
 
 <!-- Commitment Section -->
-<div class="flat-section commitment-section">
+<div class="flat-section commitment-section" id="angajamentul-nostru">
   <div class="section-header">
     <div class="section-icon">🤝</div>
     <h3>Angajamentul Nostru</h3>
@@ -135,7 +135,7 @@ permalink: /despre/
 </div>
 
 <!-- Differentiators Section -->
-<div class="flat-section differentiators-section">
+<div class="flat-section differentiators-section" id="ce-ne-face-diferiți">
   <div class="section-header">
     <div class="section-icon">✨</div>
     <h3>Ce Ne Face Diferiți</h3>
@@ -160,7 +160,7 @@ permalink: /despre/
 </div>
 
 <!-- Partners Section -->
-<div class="flat-section partners-section">
+<div class="flat-section partners-section" id="partenerii-noștri">
   <div class="section-header">
     <div class="section-icon">🤝</div>
     <h3>Partenerii Noștri</h3>
@@ -188,7 +188,7 @@ permalink: /despre/
   </div>
 </div>
 
-### Certificări
+### Certificări {#certificări}
 
 AWG Consulting este certificată conform standardelor internaționale de management, demonstrând angajamentul nostru față de calitatea serviciilor și integritatea în afaceri.
 
@@ -213,6 +213,322 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 </div>
 
 <style>
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 4rem 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  border-radius: 12px;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  color: #1B365D;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  color: #2C4A73;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.hero-description {
+  color: #666;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Flat Sections */
+.flat-section {
+  background: var(--card-bg, white);
+  border-radius: 12px;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.section-icon {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+
+.section-header h3 {
+  color: #1B365D;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.section-content {
+  color: #666;
+  line-height: 1.6;
+}
+
+.section-content p {
+  margin-bottom: 1.5rem;
+}
+
+/* Mission Section */
+.mission-section {
+  background: linear-gradient(135deg, #fff7e6 0%, #fef3e2 100%);
+  border-left: 4px solid #f39c12;
+  text-align: center;
+}
+
+.mission-section .section-icon {
+  margin-right: 0;
+  margin-bottom: 1rem;
+}
+
+/* Values Grid */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.value-card {
+  background: var(--card-bg, #f8f9fa);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.value-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.value-card h4 {
+  color: #1B365D;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.value-card p {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Approach Grid */
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.approach-card {
+  background: var(--card-bg, #f8f9fa);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.approach-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.approach-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.approach-card h4 {
+  color: #1B365D;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.approach-card p {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Locations Cards */
+.locations-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.location-card {
+  background: var(--card-bg, #f8f9fa);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.location-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.location-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.location-card h4 {
+  color: #1B365D;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.locations-link a {
+  color: #1B365D;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.locations-link a:hover {
+  text-decoration: underline;
+}
+
+/* Commitment Grid */
+.commitment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.commitment-card {
+  background: var(--card-bg, #f8f9fa);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.commitment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.commitment-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.commitment-card p {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Differentiators Grid */
+.differentiators-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.differentiator-card {
+  background: var(--card-bg, #f8f9fa);
+  border-radius: 8px;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.differentiator-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.differentiator-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.differentiator-card h4 {
+  color: #1B365D;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.differentiator-card p {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Partners Grid */
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.partner-card {
+  background: var(--card-bg, #f8f9fa);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partner-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.partner-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.partner-card h4 {
+  color: #1B365D;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.partner-card p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Certifications Grid */
 .certifications-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -280,6 +596,46 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 
 /* Responsive design */
 @media (max-width: 768px) {
+  .hero-section {
+    padding: 3rem 1.5rem;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .flat-section {
+    padding: 2rem 1.5rem;
+  }
+  
+  .section-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .section-icon {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .values-grid,
+  .approach-grid,
+  .commitment-grid,
+  .locations-cards,
+  .partners-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .differentiators-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
   .certifications-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -295,7 +651,7 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 }
 </style>
 
-### Consultant Principal
+### Consultant Principal {#consultant-principal}
 
 **Andreea Violeta Gheorghe** - Consultant cu vastă experiență în contabilitate, fiscalitate și legislația muncii, dedicată succesului clienților noștri.
 

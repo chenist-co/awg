@@ -20,8 +20,6 @@ collections:
     output: true
     sort_by: weight
     permalink: /servicii/:name/
-  team:
-    output: true
 
 defaults:
   - scope:
@@ -29,17 +27,15 @@ defaults:
       type: "services"
     values:
       layout: "service"
-  - scope:
-      path: ""
-      type: "team"
-    values:
-      layout: "team"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
 
 plugins:
   - jekyll-environment-variables
+
+# Disable GitHub Pages default theme
+theme: null
 
 exclude:
   - Gemfile
