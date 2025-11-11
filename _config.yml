@@ -1,4 +1,5 @@
-baseurl: '/'
+url: 'https://awg.chen.ist'
+baseurl: ''
 permalink: pretty
 title: 'AWG Consulting'
 description: 'Expert consulting services for accounting, taxation, HR and business administration in Romania'
