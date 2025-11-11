@@ -128,22 +128,22 @@ Pentru o consultație personalizată la oricare dintre birouri, vă rugăm să n
 
 <script>
 // Initialize Buftea map
-var mapBuftea = L.map('map-buftea').setView([44.5589, 25.9545], 15);
+var mapBuftea = L.map('map-buftea').setView([44.56425291986727, 25.930383174388947], 15);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: ''
 }).addTo(mapBuftea);
 
-L.marker([44.5589, 25.9545]).addTo(mapBuftea)
+L.marker([44.56425291986727, 25.930383174388947]).addTo(mapBuftea)
     .bindPopup('<b>AWG Consulting - Biroul Buftea</b><br>Str. Șaua Verde nr. 8<br>Buftea, Județul Ilfov')
     .openPopup();
 
 // Initialize Pipera map
-var mapPipera = L.map('map-pipera').setView([44.5035, 26.1107], 15);
+var mapPipera = L.map('map-pipera').setView([44.50217842738087, 26.13772978685107], 15);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: ''
 }).addTo(mapPipera);
 
-L.marker([44.5035, 26.1107]).addTo(mapPipera)
+L.marker([44.50217842738087, 26.13772978685107]).addTo(mapPipera)
     .bindPopup('<b>AWG Consulting - Biroul Pipera</b><br>Str. Costache Radu nr. 6F<br>Sat Pipera, Județul Ilfov')
     .openPopup();
 </script>
