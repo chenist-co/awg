@@ -181,7 +181,8 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
 .packages-section {
   margin: 4rem 0;
   padding: 3rem 0;
-  background: var(--card-bg, #292929) !important;
+  background: white;
+  /* Dark mode: var(--card-bg, #292929) */
 }
 
 .packages-section h2 {
