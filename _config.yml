@@ -5,10 +5,10 @@ title: 'AWG Consulting'
 description: 'Expert consulting services for accounting, taxation, HR and business administration in Romania'
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "assets/svg/logo-white.svg"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
+  desktop: "assets/svg/logo-white.svg"
   desktop_height: "32px"
   desktop_width: "120px"
 
