@@ -19,7 +19,7 @@ Alege din pachetele noastre de servicii sau solicită o ofertă personalizată a
     <div class="package-card package-contabilitate">
       <div class="package-icon">Pachet CONTABILITATE</div>
       <div class="package-content">
-        <h3>Pachet CONTABILITATE</h3>
+        <h3></h3>
         <p class="package-description">Perfect pentru companiile care au nevoie de servicii complete de contabilitate și fiscalitate.</p>
         
         <div class="package-features">
@@ -38,7 +38,7 @@ Alege din pachetele noastre de servicii sau solicită o ofertă personalizată a
     <div class="package-card package-hr">
       <div class="package-icon">Pachet HR & SALARIZARE</div>
       <div class="package-content">
-        <h3>Pachet HR & SALARIZARE</h3>
+        <h3></h3>
         <p class="package-description">Soluția ideală pentru administrarea resurselor umane și procesarea salariilor angajaților.</p>
         
         <div class="package-features">
@@ -57,7 +57,7 @@ Alege din pachetele noastre de servicii sau solicită o ofertă personalizată a
     <div class="package-card package-ssm">
       <div class="package-icon">Pachet SSM & JURIDIC</div>
       <div class="package-content">
-        <h3>Pachet SSM & JURIDIC</h3>
+        <h3></h3>
         <p class="package-description">Servicii complete de securitate și sănătate în muncă plus consultanță juridică specializată.</p>
         
         <div class="package-features">
@@ -76,7 +76,7 @@ Alege din pachetele noastre de servicii sau solicită o ofertă personalizată a
     <div class="package-card package-onrc">
       <div class="package-icon">Pachet ONRC</div>
       <div class="package-content">
-        <h3>Pachet ONRC</h3>
+        <h3></h3>
         <p class="package-description">Servicii complete pentru înființări, modificări și toate procedurile registrului comerțului.</p>
         
         <div class="package-features">
