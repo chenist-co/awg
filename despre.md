@@ -217,12 +217,12 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 <style>
 /* Hero Section */
 .hero-section {
-  background: linear-gradient(135deg, #f0f6ff 0%, #e6f2ff 100%);
+  background: linear-gradient(135deg, #FFF9E6 0%, #FFF4D6 100%);
   padding: 4rem 2rem;
   text-align: center;
   margin-bottom: 3rem;
   border-radius: 12px;
-  border: 1px solid rgba(27, 54, 93, 0.1);
+  border: 1px solid rgba(252, 201, 0, 0.1);
 }
 
 .hero-content {
@@ -231,14 +231,14 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 }
 
 .hero-title {
-  color: #1B365D;
+  color: #000000;
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
 .hero-subtitle {
-  color: #2C4A73;
+  color: #333333;
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
@@ -257,8 +257,8 @@ AWG Consulting este certificată conform standardelor internaționale de managem
   border-radius: 12px;
   padding: 2.5rem;
   margin-bottom: 2rem;
-  box-shadow: 0 2px 8px rgba(27, 54, 93, 0.08);
-  border: 1px solid rgba(27, 54, 93, 0.06);
+  box-shadow: 0 2px 8px rgba(252, 201, 0, 0.08);
+  border: 1px solid rgba(252, 201, 0, 0.06);
 }
 
 .section-header {
@@ -273,7 +273,7 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 }
 
 .section-header h3 {
-  color: #1B365D;
+  color: #000000;
   font-size: 1.8rem;
   font-weight: 700;
   margin: 0;
@@ -291,7 +291,7 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 /* Mission Section */
 .mission-section {
   background: linear-gradient(135deg, #f0f8ff 0%, #e6f2ff 100%);
-  border-left: 4px solid #1B365D;
+  border-left: 4px solid #FCC900;
   text-align: center;
 }
 
@@ -309,18 +309,18 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 }
 
 .value-card {
-  background: linear-gradient(135deg, #f8fbff 0%, #f0f6ff 100%);
+  background: linear-gradient(135deg, #FFFAEB 0%, #FFF9E6 100%);
   border-radius: 8px;
   padding: 1.5rem;
   text-align: center;
-  border: 1px solid rgba(27, 54, 93, 0.1);
+  border: 1px solid rgba(252, 201, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .value-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(27, 54, 93, 0.15);
-  border-color: rgba(27, 54, 93, 0.2);
+  box-shadow: 0 8px 20px rgba(252, 201, 0, 0.15);
+  border-color: rgba(252, 201, 0, 0.2);
 }
 
 .value-icon {
@@ -329,7 +329,7 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 }
 
 .value-card h4 {
-  color: #1B365D;
+  color: #000000;
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
@@ -350,17 +350,17 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 }
 
 .approach-card {
-  background: linear-gradient(135deg, #f8fbff 0%, #f0f6ff 100%);
+  background: linear-gradient(135deg, #FFFAEB 0%, #FFF9E6 100%);
   border-radius: 8px;
   padding: 1.5rem;
-  border: 1px solid rgba(27, 54, 93, 0.1);
+  border: 1px solid rgba(252, 201, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .approach-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(27, 54, 93, 0.15);
-  border-color: rgba(27, 54, 93, 0.2);
+  box-shadow: 0 8px 20px rgba(252, 201, 0, 0.15);
+  border-color: rgba(252, 201, 0, 0.2);
 }
 
 .approach-icon {
@@ -369,7 +369,7 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 }
 
 .approach-card h4 {
-  color: #1B365D;
+  color: #000000;
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
@@ -391,18 +391,18 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 }
 
 .location-card {
-  background: linear-gradient(135deg, #e6f2ff 0%, #ddeeff 100%);
+  background: linear-gradient(135deg, #FFF6DC 0%, #FFF3CC 100%);
   border-radius: 8px;
   padding: 1.5rem;
   text-align: center;
-  border: 1px solid rgba(27, 54, 93, 0.15);
+  border: 1px solid rgba(252, 201, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .location-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(27, 54, 93, 0.2);
-  border-color: rgba(27, 54, 93, 0.25);
+  box-shadow: 0 8px 20px rgba(252, 201, 0, 0.2);
+  border-color: rgba(252, 201, 0, 0.25);
 }
 
 .location-icon {
@@ -411,14 +411,14 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 }
 
 .location-card h4 {
-  color: #1B365D;
+  color: #000000;
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
 .locations-link a {
-  color: #1B365D;
+  color: #000000;
   text-decoration: none;
   font-weight: 600;
 }
@@ -436,18 +436,18 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 }
 
 .commitment-card {
-  background: linear-gradient(135deg, #f0f8ff 0%, #e8f4ff 100%);
+  background: linear-gradient(135deg, #FFF9E6 0%, #FFF6DC 100%);
   border-radius: 8px;
   padding: 1.5rem;
   text-align: center;
-  border: 1px solid rgba(27, 54, 93, 0.12);
+  border: 1px solid rgba(252, 201, 0, 0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .commitment-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(27, 54, 93, 0.18);
-  border-color: rgba(27, 54, 93, 0.2);
+  box-shadow: 0 8px 20px rgba(252, 201, 0, 0.18);
+  border-color: rgba(252, 201, 0, 0.2);
 }
 
 .commitment-icon {
@@ -474,14 +474,14 @@ AWG Consulting este certificată conform standardelor internaționale de managem
   background: linear-gradient(135deg, #f8fbff 0%, #eff7ff 100%);
   border-radius: 8px;
   padding: 2rem;
-  border: 1px solid rgba(27, 54, 93, 0.1);
+  border: 1px solid rgba(252, 201, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .differentiator-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(27, 54, 93, 0.15);
-  border-color: rgba(27, 54, 93, 0.2);
+  box-shadow: 0 8px 20px rgba(252, 201, 0, 0.15);
+  border-color: rgba(252, 201, 0, 0.2);
 }
 
 .differentiator-icon {
@@ -490,7 +490,7 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 }
 
 .differentiator-card h4 {
-  color: #1B365D;
+  color: #000000;
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -516,20 +516,20 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 
 .partner-logo-card {
   position: relative;
-  background: linear-gradient(135deg, #ffffff 0%, #f8fbff 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #FFFAEB 100%);
   border-radius: 12px;
   padding: 2rem;
   text-align: center;
-  border: 1px solid rgba(27, 54, 93, 0.08);
-  box-shadow: 0 4px 12px rgba(27, 54, 93, 0.1);
+  border: 1px solid rgba(252, 201, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(252, 201, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
 }
 
 .partner-logo-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(27, 54, 93, 0.2);
-  border-color: rgba(27, 54, 93, 0.15);
+  box-shadow: 0 8px 24px rgba(252, 201, 0, 0.2);
+  border-color: rgba(252, 201, 0, 0.15);
 }
 
 .partner-link {
@@ -579,7 +579,7 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 }
 
 .certification-card h4 {
-  color: #1B365D;
+  color: #000000;
   font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -594,7 +594,7 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 
 .certification-download-btn {
   display: inline-block;
-  background: linear-gradient(135deg, #1B365D 0%, #2C4A73 100%);
+  background: linear-gradient(135deg, #FCC900 0%, #e6b500 100%);
   color: white;
   text-decoration: none;
   padding: 0.8rem 1.5rem;
@@ -602,13 +602,13 @@ AWG Consulting este certificată conform standardelor internaționale de managem
   font-weight: 600;
   font-size: 0.95rem;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 6px rgba(27, 54, 93, 0.3);
+  box-shadow: 0 2px 6px rgba(252, 201, 0, 0.3);
 }
 
 .certification-download-btn:hover {
-  background: linear-gradient(135deg, #0f2442 0%, #1B365D 100%);
+  background: linear-gradient(135deg, #d9a800 0%, #FCC900 100%);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(27, 54, 93, 0.4);
+  box-shadow: 0 4px 12px rgba(252, 201, 0, 0.4);
   color: white;
   text-decoration: none;
 }
