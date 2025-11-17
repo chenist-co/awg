@@ -78,7 +78,7 @@ Pentru o consultație personalizată la oricare dintre birouri, vă rugăm să n
 
 .booking-section h3 {
   margin-bottom: 1rem;
-  color: #1B365D;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -91,9 +91,9 @@ Pentru o consultație personalizată la oricare dintre birouri, vă rugăm să n
   padding: 0.75rem 2rem;
   font-size: 1.1rem;
   font-weight: 600;
-  background-color: #1B365D;
+  background-color: #FCC900;
   border: none;
-  color: white;
+  color: #000000;
   text-decoration: none;
   border-radius: 4px;
   display: inline-block;
@@ -101,7 +101,7 @@ Pentru o consultație personalizată la oricare dintre birouri, vă rugăm să n
 }
 
 .booking-section .btn:hover {
-  background-color: #142a47;
+  background-color: #e6b500;
   transform: translateY(-1px);
 }
 </style>
