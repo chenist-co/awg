@@ -17,7 +17,7 @@ Alege din pachetele noastre de servicii sau solicită o ofertă personalizată a
   
   <div class="packages-grid">
     <div class="package-card package-contabilitate">
-      <div class="package-icon">📊</div>
+      <div class="package-icon">Pachet CONTABILITATE</div>
       <div class="package-content">
         <h3>Pachet CONTABILITATE</h3>
         <p class="package-description">Perfect pentru companiile care au nevoie de servicii complete de contabilitate și fiscalitate.</p>
@@ -36,7 +36,7 @@ Alege din pachetele noastre de servicii sau solicită o ofertă personalizată a
     </div>
     
     <div class="package-card package-hr">
-      <div class="package-icon">👥</div>
+      <div class="package-icon">Pachet HR & SALARIZARE</div>
       <div class="package-content">
         <h3>Pachet HR & SALARIZARE</h3>
         <p class="package-description">Soluția ideală pentru administrarea resurselor umane și procesarea salariilor angajaților.</p>
@@ -55,7 +55,7 @@ Alege din pachetele noastre de servicii sau solicită o ofertă personalizată a
     </div>
     
     <div class="package-card package-ssm">
-      <div class="package-icon">🛡️</div>
+      <div class="package-icon">Pachet SSM & JURIDIC</div>
       <div class="package-content">
         <h3>Pachet SSM & JURIDIC</h3>
         <p class="package-description">Servicii complete de securitate și sănătate în muncă plus consultanță juridică specializată.</p>
@@ -74,7 +74,7 @@ Alege din pachetele noastre de servicii sau solicită o ofertă personalizată a
     </div>
     
     <div class="package-card package-onrc">
-      <div class="package-icon">🏢</div>
+      <div class="package-icon">Pachet ONRC</div>
       <div class="package-content">
         <h3>Pachet ONRC</h3>
         <p class="package-description">Servicii complete pentru înființări, modificări și toate procedurile registrului comerțului.</p>
@@ -187,7 +187,7 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
 
 .packages-section h2 {
   text-align: center;
-  color: #1B365D;
+  color: #FCC900;
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -214,23 +214,27 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
   background: var(--card-bg, white);
   border-radius: 16px;
   padding: 0;
-  box-shadow: 0 8px 32px rgba(27, 54, 93, 0.08);
+  box-shadow: 0 8px 32px rgba(252, 201, 0, 0.08);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
-  border: 1px solid rgba(27, 54, 93, 0.05);
+  border: 1px solid rgba(252, 201, 0, 0.05);
 }
 
 .package-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(27, 54, 93, 0.15);
+  box-shadow: 0 20px 40px rgba(252, 201, 0, 0.15);
 }
 
 .package-icon {
-  font-size: 3rem;
+  font-size: 1.2rem;
+  font-weight: 700;
   text-align: center;
-  padding: 2rem 0 1rem;
-  background: linear-gradient(135deg, #1B365D 0%, #2C4A73 100%);
+  padding: 2rem 1rem 1rem;
+  background: linear-gradient(135deg, #FCC900 0%, #e6b500 100%);
   margin: 0;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .package-content {
@@ -238,7 +242,7 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
 }
 
 .package-content h3 {
-  color: #1B365D;
+  color: #FCC900;
   font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -270,7 +274,7 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
   border-radius: 12px;
   padding: 1.5rem;
   text-align: center;
-  color: #1B365D;
+  color: #FCC900;
   font-size: 1.1rem;
   font-weight: 600;
   margin: -1rem;
@@ -291,7 +295,7 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
 
 .advantages-section h2 {
   text-align: center;
-  color: #1B365D;
+  color: #FCC900;
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 3rem;
@@ -312,14 +316,14 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
   padding: 1.5rem;
   background: var(--card-bg, white);
   border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(27, 54, 93, 0.06);
+  box-shadow: 0 4px 16px rgba(252, 201, 0, 0.06);
   transition: all 0.3s ease;
-  border: 1px solid rgba(27, 54, 93, 0.05);
+  border: 1px solid rgba(252, 201, 0, 0.05);
 }
 
 .advantage-item:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(27, 54, 93, 0.12);
+  box-shadow: 0 8px 24px rgba(252, 201, 0, 0.12);
 }
 
 .advantage-icon {
@@ -329,13 +333,13 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #1B365D 0%, #2C4A73 100%);
+  background: linear-gradient(135deg, #FCC900 0%, #e6b500 100%);
   border-radius: 50%;
   margin-top: 0.25rem;
 }
 
 .advantage-content h4 {
-  color: #1B365D;
+  color: #FCC900;
   font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -355,8 +359,8 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
   padding: 3rem;
   border-radius: 16px;
   margin: 3rem 0;
-  box-shadow: 0 12px 40px rgba(27, 54, 93, 0.08);
-  border: 1px solid rgba(27, 54, 93, 0.05);
+  box-shadow: 0 12px 40px rgba(252, 201, 0, 0.08);
+  border: 1px solid rgba(252, 201, 0, 0.05);
 }
 
 .form-group {
@@ -367,7 +371,7 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
   display: block;
   margin-bottom: 0.75rem;
   font-weight: 600;
-  color: #1B365D;
+  color: #FCC900;
   font-size: 1rem;
 }
 
@@ -387,9 +391,9 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #1B365D;
+  border-color: #FCC900;
   background: white;
-  box-shadow: 0 0 0 3px rgba(27, 54, 93, 0.1);
+  box-shadow: 0 0 0 3px rgba(252, 201, 0, 0.1);
 }
 
 .checkbox-group {
@@ -413,7 +417,7 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
 }
 
 .checkbox-label:hover {
-  background: rgba(27, 54, 93, 0.05);
+  background: rgba(252, 201, 0, 0.05);
 }
 
 .checkbox-label input[type="checkbox"] {
@@ -437,15 +441,15 @@ Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #1B365D 0%, #2C4A73 100%);
+  background: linear-gradient(135deg, #FCC900 0%, #e6b500 100%);
   color: white;
-  box-shadow: 0 4px 16px rgba(27, 54, 93, 0.2);
+  box-shadow: 0 4px 16px rgba(252, 201, 0, 0.2);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(27, 54, 93, 0.3);
-  background: linear-gradient(135deg, #142a47 0%, #1B365D 100%);
+  box-shadow: 0 8px 24px rgba(252, 201, 0, 0.3);
+  background: linear-gradient(135deg, #d9a800 0%, #FCC900 100%);
 }
 
 /* Responsive Design */
