@@ -52,7 +52,7 @@ Toate serviciile AWG Consulting sunt disponibile la biroul din Pipera:
 
 ## Modalități de Contact {#modalități-de-contact}
 
-**Telefon**: [0760 000 000](tel:0760000000)  
+**Telefon**: [0742057668](tel:0742057668)  
 **Email**: [office@awgconsulting.ro](mailto:office@awgconsulting.ro)
 
 [Vezi toate modalitățile de contact →](/contact/)

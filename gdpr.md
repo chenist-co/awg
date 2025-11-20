@@ -103,7 +103,7 @@ Puteți să vă opuneți procesării datelor dvs. pentru anumite scopuri.
 Dacă doriți să vă exercitați drepturile privind protecția datelor, contactați-ne:
 
 **📧 Email**: [office@awgconsulting.ro](mailto:office@awgconsulting.ro)  
-**📞 Telefon**: [0760 000 000](tel:0760000000)  
+**📞 Telefon**: [0742057668](tel:0742057668)  
 **📍 Adresa**: Str. Șaua Verde nr. 8, Buftea, Județul Ilfov
 
 ### Pentru Ștergerea Datelor Formspree
