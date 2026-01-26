@@ -681,7 +681,7 @@ AWG Consulting este certificată conform standardelor internaționale de managem
 
 ### Consultant Principal {#consultant-principal}
 
-**Andreea Violeta Gheorghe** - Consultant cu vastă experiență în contabilitate, fiscalitate și legislația muncii, dedicată succesului clienților noștri.
+**Andreea Gheorghe** - Consultant cu vastă experiență în contabilitate, fiscalitate și legislația muncii, dedicată succesului clienților noștri.
 
 [Află mai multe despre echipa noastră →](/despre/echipa/)
 
