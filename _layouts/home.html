@@ -139,6 +139,63 @@ bodyClass: "page-home"
   </div>
 </div>
 
+<!-- De ce AWG Section -->
+<div class="why-awg-section">
+  <div class="container">
+    <h2 class="why-awg-title">De ce AWG Consulting?</h2>
+    <p class="why-awg-subtitle">Experiență, profesionalism și soluții adaptate nevoilor tale</p>
+
+    <div class="why-awg-stats">
+      <div class="stat-item">
+        <span class="stat-number" data-target="500">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Clienți activi</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="10">0</span><span class="stat-suffix"> ani</span>
+        <span class="stat-label">Experiență</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="4">0</span>
+        <span class="stat-label">Domenii de servicii</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="100">0</span><span class="stat-suffix">%</span>
+        <span class="stat-label">Conformitate garantată</span>
+      </div>
+    </div>
+
+    <div class="row why-awg-benefits">
+      <div class="col-12 col-md-4 mb-4">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <img src="/assets/svg/icons/shield.svg" alt="Conformitate" width="48" height="48">
+          </div>
+          <h4>Conformitate Garantată</h4>
+          <p>Respectarea tuturor obligațiilor legale și fiscale, monitorizate permanent de echipa noastră.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <img src="/assets/svg/icons/hr.svg" alt="Echipa" width="48" height="48">
+          </div>
+          <h4>Echipă Dedicată</h4>
+          <p>Specialiști certificați în contabilitate, HR, fiscalitate și drept comercial.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <img src="/assets/svg/icons/briefcase.svg" alt="Solutii" width="48" height="48">
+          </div>
+          <h4>Soluții Personalizate</h4>
+          <p>Pachete adaptate dimensiunii și specificului afacerii tale, fără costuri ascunse.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Partners Section -->
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
@@ -218,18 +275,33 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<style>
-.strip-yellow {
-  background: linear-gradient(135deg, #FCC900 0%, #e6b500 100%);
-}
-
-.strip-yellow .contact-form {
-  background: rgba(255, 255, 255, 0.95) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-}
-
-.strip-yellow .contact-form h3 {
-  color: #000000 !important;
-}
-</style>
+<!-- Counter animation -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var counters = entry.target.querySelectorAll('.stat-number');
+        counters.forEach(function(counter) {
+          var target = parseInt(counter.getAttribute('data-target'));
+          var duration = 1500;
+          var step = Math.ceil(target / (duration / 30));
+          var current = 0;
+          var timer = setInterval(function() {
+            current += step;
+            if (current >= target) {
+              counter.textContent = target;
+              clearInterval(timer);
+            } else {
+              counter.textContent = current;
+            }
+          }, 30);
+        });
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  var stats = document.querySelector('.why-awg-stats');
+  if (stats) observer.observe(stats);
+});
+</script>

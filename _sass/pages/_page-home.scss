@@ -336,6 +336,115 @@
   }
 }
 
+// Why AWG Section
+.why-awg-section {
+  padding: 4rem 0;
+  background: #fff;
+
+  .why-awg-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .why-awg-subtitle {
+    font-size: 1.1rem;
+    color: #888;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .why-awg-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 3.5rem;
+    flex-wrap: wrap;
+  }
+
+  .stat-item {
+    text-align: center;
+    min-width: 120px;
+  }
+
+  .stat-number {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #FCC900;
+    line-height: 1;
+  }
+
+  .stat-suffix {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #FCC900;
+    line-height: 1;
+  }
+
+  .stat-label {
+    display: block;
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .benefit-card {
+    background: #FAF8F0;
+    border-radius: 16px;
+    padding: 2rem;
+    height: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    }
+
+    .benefit-icon {
+      margin-bottom: 1rem;
+
+      img {
+        width: 48px;
+        height: 48px;
+      }
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: #666;
+      line-height: 1.6;
+      margin: 0;
+    }
+  }
+}
+
+// Strip Yellow (contact section)
+.strip-yellow {
+  background: linear-gradient(135deg, #FCC900 0%, #e6b500 100%);
+
+  .contact-form {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      color: #000 !important;
+    }
+  }
+}
+
 // Responsive design
 @media (max-width: 768px) {
   .certifications-grid {
@@ -363,6 +472,21 @@
 
     .partner-logo {
       max-width: 120px;
+    }
+  }
+
+  .why-awg-section {
+    .why-awg-stats {
+      gap: 1.5rem;
+    }
+
+    .stat-number,
+    .stat-suffix {
+      font-size: 2rem;
+    }
+
+    .why-awg-title {
+      font-size: 1.8rem;
     }
   }
 }
