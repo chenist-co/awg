@@ -16,7 +16,6 @@ bodyClass: "page-basic"
         {% if page.url == '/despre/' %}
         <div class="col-12 col-md-4">
             <div class="toc-sidebar">
-                <h4>Cuprins</h4>
                 <nav class="toc-nav">
                     <ul class="toc-list">
                         <li><a href="#despre-awg-consulting">Despre AWG Consulting</a></li>
@@ -33,12 +32,54 @@ bodyClass: "page-basic"
                 </nav>
             </div>
         </div>
+        {% elsif page.url == '/solicita-oferta/' %}
+        <div class="col-12 col-md-4">
+            <div class="toc-sidebar">
+                <nav class="toc-nav">
+                    <ul class="toc-list">
+                        <li><a href="#soluții-complete-și-profesionale">Soluții Complete</a></li>
+                        <li><a href="#pachete-de-servicii">Pachete de Servicii</a></li>
+                        <li><a href="#solicită-ofertă-personalizată">Solicită Ofertă</a></li>
+                        <li><a href="#avantajele-colaborării">Avantajele Colaborării</a></li>
+                        <li><a href="#de-ce-să-alegi-awg-consulting">De Ce AWG Consulting</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        {% elsif page.url == '/locatii/' %}
+        <div class="col-12 col-md-4">
+            <div class="toc-sidebar">
+                <nav class="toc-nav">
+                    <ul class="toc-list">
+                        <li><a href="#locațiile-awg-consulting">Locațiile AWG Consulting</a></li>
+                        <li><a href="#biroul-buftea">Biroul Buftea</a></li>
+                        <li><a href="#biroul-pipera">Biroul Pipera</a></li>
+                        <li><a href="#program-de-lucru">Program de Lucru</a></li>
+                        <li><a href="#modalități-de-contact">Modalități de Contact</a></li>
+                        <li><a href="#de-ce-să-ne-alegi">De Ce Să Ne Alegi</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        {% elsif page.url == '/contact/' %}
+        <div class="col-12 col-md-4">
+            <div class="toc-sidebar">
+                <nav class="toc-nav">
+                    <ul class="toc-list">
+                        <li><a href="#ia-legătura-cu-noi">Ia Legătura cu Noi</a></li>
+                        <li><a href="#program-de-lucru">Program de Lucru</a></li>
+                        <li><a href="#locațiile-birourilor">Locațiile Birourilor</a></li>
+                        <li><a href="#de-ce-să-alegi-awg-consulting">De Ce AWG Consulting</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
         {% endif %}
     </div>
 </div>
 
 <style>
-{% if page.url == '/despre/' %}
+{% if page.url == '/despre/' or page.url == '/solicita-oferta/' or page.url == '/locatii/' or page.url == '/contact/' %}
 .toc-sidebar {
     position: sticky;
     top: 2rem;
@@ -49,14 +90,6 @@ bodyClass: "page-basic"
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-.toc-sidebar h4 {
-    color: #1B365D;
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #1B365D;
-    padding-bottom: 0.5rem;
-}
 
 .toc-list {
     list-style: none;

@@ -1,192 +1,227 @@
-.page-home {
-  .intro {
-    h1 {
-      font-size: 2.5rem;
-      font-weight: 700;
-      color: #1B365D;
-      margin-bottom: 1rem;
-      line-height: 1.2;
-      
-      .subtitle-services {
-        font-size: 0.75em;
-        font-weight: 500;
-        display: block;
-        margin-top: 0.5rem;
-      }
-      
-      @media (max-width: 768px) {
-        font-size: 1.8rem;
-        text-align: center;
-      }
+// Hero Section
+.hero-section {
+  padding: 4rem 0 3rem;
+  background: #FAF8F0;
+
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+
+    @media (max-width: 768px) {
+      font-size: 2.4rem;
+      text-align: center;
     }
-    
-    .subtitle {
-      font-size: 1.2rem;
-      font-weight: 600;
-      color: #666;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-bottom: 2rem;
-      
-      @media (max-width: 768px) {
-        font-size: 1rem;
-        text-align: center;
-      }
+  }
+
+  .hero-subtitle {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #FCC900;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.1rem;
+      text-align: center;
     }
-    
-    .intro-description {
-      text-align: left;
-      
-      @media (max-width: 768px) {
-        text-align: center;
-        max-width: 600px;
-        margin: 0 auto;
-      }
-      
-      p {
-        font-size: 1.1rem;
-        line-height: 1.6;
-        margin-bottom: 1.5rem;
-      }
-      
-      h3 {
-        color: #1B365D;
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
-        text-align: center;
-      }
+  }
+
+  .hero-tagline {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 2rem;
+
+    @media (max-width: 768px) {
+      font-size: 0.85rem;
+      text-align: center;
     }
-    
-    .contact-module {
-      margin: 2rem 0;
-      
-      .contact-info {
-        margin-bottom: 1rem;
-        
-        .contact-phone,
-        .contact-email {
-          font-size: 1rem;
-          margin-bottom: 0.5rem;
-          color: #555;
-        }
-      }
-      
-      .contact-button {
-        .btn {
-          background: none;
-          border: 2px solid #1B365D;
-          color: #1B365D;
-          padding: 0.6rem 1.2rem;
-          text-decoration: none;
-          border-radius: 4px;
-          font-weight: 600;
-          transition: all 0.3s ease;
-          display: inline-block;
-          
-          &:hover {
-            background-color: #1B365D;
-            color: white;
-          }
-        }
-      }
-      
+  }
+
+  .btn-cta {
+    display: inline-block;
+    padding: 0.85rem 2rem;
+    background: #FCC900;
+    color: #1a1a1a;
+    font-weight: 700;
+    font-size: 1.05rem;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid #FCC900;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: transparent;
+      color: #FCC900;
+    }
+
+    @media (max-width: 768px) {
+      display: block;
+      text-align: center;
+      max-width: 280px;
+      margin: 0 auto;
+    }
+  }
+
+  .hero-icons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 1rem;
+
+    @media (max-width: 768px) {
+      margin-top: 2rem;
+      gap: 1rem;
+    }
+  }
+
+  .hero-icon-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+
+    img {
+      width: 64px;
+      height: 64px;
+
       @media (max-width: 768px) {
-        text-align: center;
-        margin: 1.5rem 0;
+        width: 48px;
+        height: 48px;
       }
     }
   }
 }
 
-.content-section {
+// Solutions Section
+.solutions-section {
+  padding: 4rem 0;
   background: #fff;
-  
-  .content-column {
-    padding: 1.5rem;
-    
-    p {
-      font-size: 1.1rem;
-      line-height: 1.7;
-      color: #555;
-      margin-bottom: 1.5rem;
-      
-      &:last-of-type {
-        margin-bottom: 0;
-      }
-    }
-    
-    h3 {
-      color: #1B365D;
-      font-size: 1.5rem;
-      font-weight: 600;
-      margin-bottom: 1rem;
-      font-family: "Playfair Display", serif;
-    }
-    
-    .content-link {
-      color: #1B365D;
-      font-weight: 600;
-      text-decoration: none;
-      border-bottom: 2px solid transparent;
-      transition: all 0.3s ease;
-      
-      &:hover {
-        border-bottom-color: #1B365D;
-        color: #142a47;
-      }
+
+  .section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.8rem;
+      text-align: center;
     }
   }
-  
-  .service-card {
-    padding: 1.5rem;
-    border: 1px solid #e9ecef;
-    border-radius: 8px;
-    height: 100%;
+
+  .section-description {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #666;
+
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+
+  .solutions-icons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 1rem;
+
+    @media (max-width: 768px) {
+      margin-top: 2rem;
+      gap: 1rem;
+    }
+  }
+
+  .solutions-icon-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    background: #f8f8f8;
+    border-radius: 12px;
     transition: all 0.3s ease;
-    
+
     &:hover {
-      box-shadow: 0 4px 20px rgba(27, 54, 93, 0.1);
+      background: #FAF8F0;
       transform: translateY(-2px);
     }
-    
-    h4 {
-      margin-bottom: 1rem;
-      
-      a {
-        color: #1B365D;
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 1.2rem;
-        
-        &:hover {
-          color: #142a47;
-          text-decoration: underline;
-        }
-      }
-    }
-    
-    p {
-      font-size: 0.95rem;
-      line-height: 1.6;
-      color: #666;
-      margin-bottom: 0;
+
+    img {
+      width: 56px;
+      height: 56px;
     }
   }
-  
-  @media (max-width: 768px) {
-    .content-column {
-      text-align: center;
-      padding: 1rem;
-      
-      h3 {
-        text-align: center;
+}
+
+// Service Cards Section (2x2 grid)
+.services-cards-section {
+  padding: 4rem 0;
+  background: #FAF8F0;
+
+  .service-card-new {
+    background: #fff;
+    border: 1px solid #e8e4da;
+    border-radius: 16px;
+    padding: 2rem;
+    height: 100%;
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+      transform: translateY(-4px);
+    }
+
+    .service-card-icon {
+      margin-bottom: 1rem;
+
+      img {
+        width: 72px;
+        height: 72px;
       }
     }
-    
-    .service-card {
-      text-align: center;
-      padding: 1.25rem;
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #1a1a1a;
       margin-bottom: 1rem;
+      letter-spacing: 0.5px;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 1.2rem;
+      margin-bottom: 1.5rem;
+
+      li {
+        font-size: 0.95rem;
+        color: #555;
+        margin-bottom: 0.4rem;
+        line-height: 1.5;
+      }
+    }
+
+    .service-card-link {
+      display: inline-block;
+      padding: 0.5rem 1.5rem;
+      border: 2px solid #FCC900;
+      color: #1a1a1a;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: #FCC900;
+        color: #1a1a1a;
+      }
     }
   }
 }
@@ -209,12 +244,12 @@
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
+
   &:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   }
-  
+
   .certification-image {
     width: 100%;
     max-width: 250px;
@@ -223,14 +258,14 @@
     margin-bottom: 1.5rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
-  
+
   h4 {
-    color: #1B365D;
+    color: #FCC900;
     font-size: 1.4rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
   }
-  
+
   p {
     color: #666;
     font-size: 1rem;
@@ -241,7 +276,7 @@
 
 .certification-download-btn {
   display: inline-block;
-  background: linear-gradient(135deg, #1B365D 0%, #2C4A73 100%);
+  background: linear-gradient(135deg, #FCC900 0%, #e6b500 100%);
   color: white;
   text-decoration: none;
   padding: 0.8rem 1.5rem;
@@ -249,30 +284,209 @@
   font-weight: 600;
   font-size: 0.95rem;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 6px rgba(27, 54, 93, 0.3);
-  
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
   &:hover {
-    background: linear-gradient(135deg, #0f2442 0%, #1B365D 100%);
+    background: linear-gradient(135deg, #d9a800 0%, #FCC900 100%);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(27, 54, 93, 0.4);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     color: white;
     text-decoration: none;
   }
 }
 
-// Responsive design for certifications
+// Partners Section
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partner-logo-card {
+  position: relative;
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .partner-link {
+    display: block;
+    text-decoration: none;
+  }
+
+  .partner-logo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    object-fit: contain;
+  }
+}
+
+// Why AWG Section
+.why-awg-section {
+  padding: 4rem 0;
+  background: #fff;
+
+  .why-awg-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .why-awg-subtitle {
+    font-size: 1.1rem;
+    color: #888;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .why-awg-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 3.5rem;
+    flex-wrap: wrap;
+  }
+
+  .stat-item {
+    text-align: center;
+    min-width: 120px;
+  }
+
+  .stat-number {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #FCC900;
+    line-height: 1;
+  }
+
+  .stat-suffix {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #FCC900;
+    line-height: 1;
+  }
+
+  .stat-label {
+    display: block;
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .benefit-card {
+    background: #FAF8F0;
+    border-radius: 16px;
+    padding: 2rem;
+    height: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    }
+
+    .benefit-icon {
+      margin-bottom: 1rem;
+
+      img {
+        width: 48px;
+        height: 48px;
+      }
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: #666;
+      line-height: 1.6;
+      margin: 0;
+    }
+  }
+}
+
+// Strip Yellow (contact section)
+.strip-yellow {
+  background: linear-gradient(135deg, #FCC900 0%, #e6b500 100%);
+
+  .contact-form {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      color: #000 !important;
+    }
+  }
+}
+
+// Responsive design
 @media (max-width: 768px) {
   .certifications-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
     margin: 1.5rem 0;
   }
-  
+
   .certification-card {
     padding: 1.5rem;
-    
+
     .certification-image {
       max-width: 200px;
+    }
+  }
+
+  .partners-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .partner-logo-card {
+    padding: 1.5rem;
+
+    .partner-logo {
+      max-width: 120px;
+    }
+  }
+
+  .why-awg-section {
+    .why-awg-stats {
+      gap: 1.5rem;
+    }
+
+    .stat-number,
+    .stat-suffix {
+      font-size: 2rem;
+    }
+
+    .why-awg-title {
+      font-size: 1.8rem;
     }
   }
 }

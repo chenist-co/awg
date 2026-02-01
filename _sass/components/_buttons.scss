@@ -4,7 +4,6 @@
   height: 40px;
   line-height: 40px;
   padding: 0 14px;
-  //box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   background: $primary;
   border-radius: 4px;
   font-size: 14px;
@@ -13,13 +12,75 @@
   letter-spacing: 0.025em;
   color: #ffffff;
   text-decoration: none;
-  -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
   &:hover {
     color: #ffffff;
-    background-color: lighten($primary, 10%);
+    background-color: darken($primary, 10%);
     transform: translateY(-1px);
-    //box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     text-decoration: none;
+  }
+}
+
+// Shared button styles
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: $primary;
+  color: $white;
+
+  &:hover {
+    background-color: $primary-dark;
+    transform: translateY(-1px);
+  }
+}
+
+// Contact form component
+.contact-form {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+
+  h3 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      color: #555;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: border-color 0.3s ease;
+
+      &:focus {
+        outline: none;
+        border-color: $primary;
+        box-shadow: 0 0 0 3px rgba($primary, 0.15);
+      }
+    }
   }
 }

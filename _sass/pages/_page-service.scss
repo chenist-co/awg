@@ -13,7 +13,7 @@
   }
 
   .service-cta {
-    background: linear-gradient(135deg, #1B365D 0%, #2C4A73 100%);
+    background: linear-gradient(135deg, #FCC900 0%, #e6b500 100%);
     margin: 3rem 0;
     position: relative;
     overflow: hidden;
@@ -103,12 +103,12 @@
     }
     
     .service-cta-primary {
-      background: linear-gradient(135deg, #1B365D 0%, #2C4A73 100%);
+      background: linear-gradient(135deg, #FCC900 0%, #e6b500 100%);
       color: white;
       box-shadow: 0 4px 16px rgba(27, 54, 93, 0.2);
       
       &:hover {
-        background: linear-gradient(135deg, #142a47 0%, #1B365D 100%);
+        background: linear-gradient(135deg, #e6b500 0%, #FCC900 100%);
         box-shadow: 0 8px 24px rgba(27, 54, 93, 0.3);
         color: white;
         text-decoration: none;
@@ -117,11 +117,11 @@
     
     .service-cta-secondary {
       background: white;
-      color: #1B365D;
-      border: 2px solid #1B365D;
+      color: #FCC900;
+      border: 2px solid #FCC900;
       
       &:hover {
-        background: #1B365D;
+        background: #FCC900;
         color: white;
         text-decoration: none;
         box-shadow: 0 4px 20px rgba(27, 54, 93, 0.2);

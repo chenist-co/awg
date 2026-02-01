@@ -3,19 +3,34 @@ layout: default
 bodyClass: "page-services"
 ---
 
-{% include breadcrumbs.html %}
-
-<div class="intro">
+<div class="services-hero">
   <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6">
         {{ content }}
       </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
+      <div class="col-12 col-md-6">
+        <div class="services-hero-icons">
+          <div class="services-hero-icon">
+            <img src="/assets/svg/icons/accounting.svg" alt="Contabilitate" width="56" height="56">
+          </div>
+          <div class="services-hero-icon">
+            <img src="/assets/svg/icons/hr.svg" alt="HR" width="56" height="56">
+          </div>
+          <div class="services-hero-icon">
+            <img src="/assets/svg/icons/ssm.svg" alt="SSM" width="56" height="56">
+          </div>
+          <div class="services-hero-icon">
+            <img src="/assets/svg/icons/onrc.svg" alt="ONRC" width="56" height="56">
+          </div>
+          <div class="services-hero-icon">
+            <img src="/assets/svg/icons/briefcase.svg" alt="Afaceri" width="56" height="56">
+          </div>
+          <div class="services-hero-icon">
+            <img src="/assets/svg/icons/shield.svg" alt="Protectie" width="56" height="56">
+          </div>
+        </div>
       </div>
-      {% endif %}
     </div>
   </div>
 </div>
@@ -23,16 +38,149 @@ bodyClass: "page-services"
 <div class="container pt-6 pb-6">
   <div class="row">
     {% for service in site.services %}
-    <div class="col-12 col-md-6 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-          </h2>
-          <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+    <div class="col-12 col-md-6 mb-4">
+      <div class="service-card-grid">
+        <div class="service-card-grid-icon">
+          {% if service.title contains 'Contabilitate' %}
+            <img src="/assets/svg/icons/accounting.svg" alt="{{ service.title }}" width="64" height="64">
+          {% elsif service.title contains 'HR' %}
+            <img src="/assets/svg/icons/hr.svg" alt="{{ service.title }}" width="64" height="64">
+          {% elsif service.title contains 'SSM' %}
+            <img src="/assets/svg/icons/ssm.svg" alt="{{ service.title }}" width="64" height="64">
+          {% elsif service.title contains 'ONRC' %}
+            <img src="/assets/svg/icons/onrc.svg" alt="{{ service.title }}" width="64" height="64">
+          {% else %}
+            <img src="/assets/svg/icons/briefcase.svg" alt="{{ service.title }}" width="64" height="64">
+          {% endif %}
         </div>
+        <h2 class="service-card-grid-title">
+          <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+        </h2>
+        <p>{{ service.excerpt | markdownify | strip_html | truncate: 120 }}</p>
+        <a href="{{ service.url | relative_url }}" class="service-card-grid-link">Află mai multe</a>
       </div>
     </div>
     {% endfor %}
   </div>
 </div>
+
+<style>
+.services-hero {
+  padding: 3rem 0;
+  background: #FAF8F0;
+}
+
+.services-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.services-hero h2 {
+  font-size: 1.3rem;
+  color: #FCC900;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.services-hero p {
+  color: #666;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.services-hero-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.services-hero-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.service-card-grid {
+  background: #fff;
+  border: 1px solid #e8e4da;
+  border-radius: 16px;
+  padding: 2rem;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.service-card-grid:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+.service-card-grid-icon {
+  margin-bottom: 1rem;
+}
+
+.service-card-grid-title {
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.service-card-grid-title a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.service-card-grid-title a:hover {
+  color: #FCC900;
+}
+
+.service-card-grid p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.service-card-grid-link {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #FCC900;
+  color: #1a1a1a;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.service-card-grid-link:hover {
+  background: #FCC900;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .services-hero h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .services-hero h2 {
+    text-align: center;
+  }
+
+  .services-hero p {
+    text-align: center;
+  }
+
+  .services-hero-icons {
+    margin-top: 2rem;
+  }
+}
+</style>

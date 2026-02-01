@@ -13,12 +13,18 @@
   .hamburger-inner::before,
   .hamburger-inner::after {
     background: $primary;
+    transition: background 0.3s ease;
   }
   .hamburger-inner::after {
     width: 18px;
     right: 0;
   }
   &.is-active {
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+      background: $primary;
+    }
     .hamburger-inner::after {
       width: inherit;
       right: unset;

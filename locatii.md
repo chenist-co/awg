@@ -4,11 +4,11 @@ title: Locații
 permalink: /locatii/
 ---
 
-# Locațiile AWG Consulting
+# Locațiile AWG Consulting {#locațiile-awg-consulting}
 
 Suntem prezenti în județul Ilfov cu două birouri strategice poziționate pentru a deservi eficient clienții din toată regiunea de sud a României.
 
-## Biroul Buftea
+## Biroul Buftea {#biroul-buftea}
 
 **Adresa**: Str. Șaua Verde nr. 8, Buftea, Județul Ilfov
 
@@ -26,7 +26,7 @@ Toate serviciile AWG Consulting sunt disponibile la biroul din Buftea:
 - [SSM & Servicii Juridice](/servicii/ssm/)
 - [ONRC - Înființări & Modificări](/servicii/onrc/)
 
-## Biroul Pipera
+## Biroul Pipera {#biroul-pipera}
 
 **Adresa**: Str. Costache Radu nr. 6F, Sat Pipera, Județul Ilfov
 
@@ -44,15 +44,15 @@ Toate serviciile AWG Consulting sunt disponibile la biroul din Pipera:
 - [SSM & Servicii Juridice](/servicii/ssm/)
 - [ONRC - Înființări & Modificări](/servicii/onrc/)
 
-## Program de Lucru
+## Program de Lucru {#program-de-lucru}
 
 **Luni - Vineri**: 08:00 - 16:00  
 **Sâmbătă**: Prin programare  
 **Duminică**: Închis
 
-## Modalități de Contact
+## Modalități de Contact {#modalități-de-contact}
 
-**Telefon**: [0760 000 000](tel:0760000000)  
+**Telefon**: [0742057668](tel:0742057668)  
 **Email**: [office@awgconsulting.ro](mailto:office@awgconsulting.ro)
 
 [Vezi toate modalitățile de contact →](/contact/)
@@ -78,7 +78,7 @@ Pentru o consultație personalizată la oricare dintre birouri, vă rugăm să n
 
 .booking-section h3 {
   margin-bottom: 1rem;
-  color: #1B365D;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -91,9 +91,9 @@ Pentru o consultație personalizată la oricare dintre birouri, vă rugăm să n
   padding: 0.75rem 2rem;
   font-size: 1.1rem;
   font-weight: 600;
-  background-color: #1B365D;
+  background-color: #FCC900;
   border: none;
-  color: white;
+  color: #000000;
   text-decoration: none;
   border-radius: 4px;
   display: inline-block;
@@ -101,7 +101,7 @@ Pentru o consultație personalizată la oricare dintre birouri, vă rugăm să n
 }
 
 .booking-section .btn:hover {
-  background-color: #142a47;
+  background-color: #e6b500;
   transform: translateY(-1px);
 }
 </style>
@@ -110,7 +110,7 @@ Pentru o consultație personalizată la oricare dintre birouri, vă rugăm să n
 
 În funcție de complexitatea proiectului și nevoile dvs., oferim și servicii de deplasare la sediul companiei dvs. pentru consultanță și servicii administrative.
 
-## De Ce Să Ne Alegi?
+## De Ce Să Ne Alegi? {#de-ce-să-ne-alegi}
 
 - **Prezență Locală**: Birouri strategice în județul Ilfov
 - **Accesibilitate**: Ușor de accesat din București și zonele învecinate
@@ -128,22 +128,22 @@ Pentru o consultație personalizată la oricare dintre birouri, vă rugăm să n
 
 <script>
 // Initialize Buftea map
-var mapBuftea = L.map('map-buftea').setView([44.5589, 25.9545], 15);
+var mapBuftea = L.map('map-buftea').setView([44.56425291986727, 25.930383174388947], 15);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: ''
 }).addTo(mapBuftea);
 
-L.marker([44.5589, 25.9545]).addTo(mapBuftea)
+L.marker([44.56425291986727, 25.930383174388947]).addTo(mapBuftea)
     .bindPopup('<b>AWG Consulting - Biroul Buftea</b><br>Str. Șaua Verde nr. 8<br>Buftea, Județul Ilfov')
     .openPopup();
 
 // Initialize Pipera map
-var mapPipera = L.map('map-pipera').setView([44.5035, 26.1107], 15);
+var mapPipera = L.map('map-pipera').setView([44.50217842738087, 26.13772978685107], 15);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: ''
 }).addTo(mapPipera);
 
-L.marker([44.5035, 26.1107]).addTo(mapPipera)
+L.marker([44.50217842738087, 26.13772978685107]).addTo(mapPipera)
     .bindPopup('<b>AWG Consulting - Biroul Pipera</b><br>Str. Costache Radu nr. 6F<br>Sat Pipera, Județul Ilfov')
     .openPopup();
 </script>

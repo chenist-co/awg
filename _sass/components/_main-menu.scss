@@ -11,23 +11,48 @@
       list-style: none;
       font-size: 1rem;
       > a {
-        padding: 10px 12px 10px 12px;
+        padding: 10px 16px;
         display: inline-block;
-        font-weight: normal;
+        font-weight: 500;
         text-decoration: none;
         color: $white;
+        position: relative;
+        transition: color 0.3s ease;
+        letter-spacing: 0.3px;
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: 4px;
+          left: 16px;
+          right: 16px;
+          height: 2px;
+          background: $primary;
+          transform: scaleX(0);
+          transition: transform 0.3s ease;
+        }
+
         &:hover {
-          text-decoration: underline;
-          color: rgba($white, 0.8);
+          color: $primary;
+          text-decoration: none;
+
+          &::after {
+            transform: scaleX(1);
+          }
         }
       }
       &.active {
         > a {
-          font-weight: bold;
+          font-weight: 700;
+          color: $primary;
           text-decoration: none;
+
+          &::after {
+            transform: scaleX(1);
+          }
+
           &:hover {
             text-decoration: none;
-            transition: all 225ms ease-in 0s;
           }
         }
       }

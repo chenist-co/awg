@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Courthouse / Classical building -->
+  <!-- Roof triangle -->
+  <path d="M40 8L12 28H68L40 8Z" stroke="#333" stroke-width="2.5" fill="none"/>
+  <!-- Roof base -->
+  <rect x="10" y="28" width="60" height="5" rx="1" stroke="#333" stroke-width="2" fill="#FCC900" opacity="0.3"/>
+  <!-- Columns -->
+  <rect x="18" y="33" width="6" height="30" rx="1" stroke="#333" stroke-width="2" fill="none"/>
+  <rect x="30" y="33" width="6" height="30" rx="1" stroke="#333" stroke-width="2" fill="none"/>
+  <rect x="44" y="33" width="6" height="30" rx="1" stroke="#333" stroke-width="2" fill="none"/>
+  <rect x="56" y="33" width="6" height="30" rx="1" stroke="#333" stroke-width="2" fill="none"/>
+  <!-- Base -->
+  <rect x="8" y="63" width="64" height="6" rx="2" stroke="#333" stroke-width="2" fill="#FCC900" opacity="0.3"/>
+  <!-- Pediment detail -->
+  <circle cx="40" cy="20" r="4" fill="#FCC900"/>
+</svg>

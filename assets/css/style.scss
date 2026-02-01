@@ -1,13 +1,13 @@
 ---
 ---
 
-// Colors
-$primary: #1B365D;
-$primary-dark: #142a47;
-$secondary: #2d4a6b;
-$black: #2f2f41;
+// Brand Colors
+$primary: #FCC900;
+$primary-dark: #e6b500;
+$secondary: #000000;
+$black: #000000;
 $white: #ffffff;
-$white-offset: #fff6f8;
+$white-offset: #F5F2E9;
 $steel: #5c5a5a;
 
 // Links
@@ -17,13 +17,13 @@ $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: "Playfair Display", serif, -apple-system;
+$font-family-base: "Open Sans", Helvetica, Arial, sans-serif, -apple-system;
+$font-family-heading: "Open Sans", "Coco Gothic", sans-serif, -apple-system;
 
 // Footer
-$footer-background-color: $primary;
+$footer-background-color: $secondary;
 $footer-text-color: $white;
-$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-background-color: darken($secondary, 10%);
 $sub-footer-text-color: $white;
 
 // Bootstrap 5.3.2
@@ -100,11 +100,11 @@ $sub-footer-text-color: $white;
 @import "components/strip";
 @import "components/feature";
 @import "components/social";
+@import "components/toc";
 // @import "components/fonts"; // Uncomment this line to self host font
 
 // Pages
 @import "pages/page-home";
-@import "pages/page-teams";
 @import "pages/page-service";
 
 body {

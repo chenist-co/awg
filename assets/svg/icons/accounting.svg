@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Bar chart with rising arrow -->
+  <rect x="8" y="52" width="12" height="20" rx="2" fill="#FCC900"/>
+  <rect x="24" y="40" width="12" height="32" rx="2" fill="#FCC900"/>
+  <rect x="40" y="28" width="12" height="44" rx="2" fill="#FCC900"/>
+  <rect x="56" y="16" width="12" height="56" rx="2" fill="#FCC900"/>
+  <!-- Rising arrow -->
+  <path d="M12 48L30 32L48 24L64 12" stroke="#333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M54 12H64V22" stroke="#333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Base line -->
+  <line x1="4" y1="74" x2="76" y2="74" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+</svg>
