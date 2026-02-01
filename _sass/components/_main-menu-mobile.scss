@@ -1,6 +1,6 @@
 .main-menu-mobile {
   position: fixed;
-  background: $primary;
+  background: $secondary;
   top: 0;
   left: 0;
   width: 100%;
@@ -13,31 +13,35 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   &.open {
-    opacity: 0.9;
+    opacity: 0.97;
     visibility: visible;
     height: 100%;
     z-index: 20;
+
     li {
       animation: fadeInRight 0.5s ease forwards;
       animation-delay: 0.35s;
-      &:nth-of-type(2) {
-        animation-delay: 0.4s;
-      }
-      &:nth-of-type(3) {
-        animation-delay: 0.45s;
-      }
-      &:nth-of-type(4) {
-        animation-delay: 0.5s;
-      }
-      &:nth-of-type(5) {
-        animation-delay: 0.55s;
-      }
-      &:nth-of-type(6) {
-        animation-delay: 0.6s;
-      }
+      &:nth-of-type(2) { animation-delay: 0.4s; }
+      &:nth-of-type(3) { animation-delay: 0.45s; }
+      &:nth-of-type(4) { animation-delay: 0.5s; }
+      &:nth-of-type(5) { animation-delay: 0.55s; }
+      &:nth-of-type(6) { animation-delay: 0.6s; }
     }
   }
+
+  // Gold accent bar at top
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: $primary;
+  }
+
   ul {
     font-size: 30px;
     font-family: $font-family-heading;
@@ -46,24 +50,30 @@
     padding: 0;
     margin: 0;
     flex: 0;
+
     li {
       display: block;
       position: relative;
       opacity: 0;
       padding: 10px;
+
       a {
         display: block;
         position: relative;
         color: #ffffff;
         text-decoration: none;
         overflow: hidden;
+        transition: color 0.3s ease;
+        padding: 4px 0;
+
         &:hover {
-          opacity: 0.8;
+          color: $primary;
         }
       }
     }
   }
 }
+
 @keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -74,6 +84,7 @@
     left: 0;
   }
 }
+
 .lock-scroll {
   overflow: hidden;
 }
