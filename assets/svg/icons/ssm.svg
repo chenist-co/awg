@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Safety helmet -->
+  <path d="M16 38C16 22 26 12 40 12C54 12 64 22 64 38" stroke="#FCC900" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M12 40H68" stroke="#FCC900" stroke-width="3" stroke-linecap="round"/>
+  <path d="M16 40V44C16 46 17 48 20 48H60C63 48 64 46 64 44V40" stroke="#FCC900" stroke-width="2.5" fill="none"/>
+  <rect x="36" y="12" width="8" height="28" rx="2" fill="#FCC900" opacity="0.3"/>
+  <!-- Shield with checkmark below -->
+  <path d="M40 52L28 58V66C28 72 33 76 40 78C47 76 52 72 52 66V58L40 52Z" stroke="#333" stroke-width="2.5" fill="none"/>
+  <path d="M34 66L38 70L48 60" stroke="#FCC900" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

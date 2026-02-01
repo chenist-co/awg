@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Document with folded corner -->
+  <path d="M16 8H52L64 20V72H16V8Z" stroke="#333" stroke-width="2.5" fill="none"/>
+  <path d="M52 8V20H64" stroke="#333" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Chart on document -->
+  <rect x="24" y="30" width="6" height="24" rx="1" fill="#FCC900"/>
+  <rect x="34" y="38" width="6" height="16" rx="1" fill="#FCC900"/>
+  <rect x="44" y="26" width="6" height="28" rx="1" fill="#FCC900"/>
+  <!-- Lines -->
+  <line x1="24" y1="62" x2="56" y2="62" stroke="#333" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <line x1="24" y1="66" x2="44" y2="66" stroke="#333" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+</svg>

@@ -1,567 +1,371 @@
 ---
 layout: page
-title: Solicită Ofertă Personalizată
+title: Solicită Oferte Personalizate
 permalink: /solicita-oferta/
-description: Obține o ofertă detaliată pentru servicii de contabilitate, HR, fiscalitate și administrare de afaceri adaptate nevoilor companiei tale.
+description: Servicii administrative complete, adaptate firmei tale - contabilitate, HR, fiscalitate.
 ---
 
-# Soluții Complete și Profesionale pentru Afacerea Ta {#soluții-complete-și-profesionale}
-
-## Obține o ofertă detaliată în cel mai scurt timp
-
-Alege din pachetele noastre de servicii sau solicită o ofertă personalizată adaptată perfect nevoilor specifice ale afacerii tale. Toate pachetele includ consultanță specializată și suport complet.
-
-<div class="packages-section" id="pachete-de-servicii">
-  <h2>Pachete de Servicii</h2>
-  <p class="section-subtitle">Alege pachetul potrivit nevoilor afacerii tale</p>
-  
-  <div class="packages-grid">
-    <div class="package-card package-contabilitate">
-      <div class="package-icon">Pachet CONTABILITATE</div>
-      <div class="package-content">
-        <h3></h3>
-        <p class="package-description">Perfect pentru companiile care au nevoie de servicii complete de contabilitate și fiscalitate.</p>
-        
-        <div class="package-features">
-          <div class="feature-item">✓ Înregistrări contabile complete</div>
-          <div class="feature-item">✓ Declarații fiscale la timp</div>
-          <div class="feature-item">✓ Balanțe de verificare lunare</div>
-          <div class="feature-item">✓ Consultanță fiscală permanentă</div>
-          <div class="feature-item">✓ Raportări către ANAF</div>
-          <div class="feature-item">✓ Suport telefonic și email</div>
-        </div>
-        
-        <div class="package-price">De la <span class="price-amount">300 RON</span>/lună</div>
-      </div>
+<div class="oferta-hero">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-7">
+      <h1 class="oferta-title">Solicită Oferte Personalizate</h1>
+      <p class="oferta-subtitle">Servicii administrative complete, adaptate firmei tale. Contabilitate, HR, fiscalitate.</p>
+      <a href="#trimite-cerere" class="btn-oferta-cta">Primește Oferta</a>
     </div>
-    
-    <div class="package-card package-hr">
-      <div class="package-icon">Pachet HR & SALARIZARE</div>
-      <div class="package-content">
-        <h3></h3>
-        <p class="package-description">Soluția ideală pentru administrarea resurselor umane și procesarea salariilor angajaților.</p>
-        
-        <div class="package-features">
-          <div class="feature-item">✓ Contracte de muncă și acte adiționale</div>
-          <div class="feature-item">✓ Procesare și calcul salarii</div>
-          <div class="feature-item">✓ Declarații REVISAL și ANAF</div>
-          <div class="feature-item">✓ Adeverințe și documente HR</div>
-          <div class="feature-item">✓ Consultanță legislația muncii</div>
-          <div class="feature-item">✓ Gestionare concedii și ore suplimentare</div>
-        </div>
-        
-        <div class="package-price">De la <span class="price-amount">50 RON</span>/angajat</div>
-      </div>
-    </div>
-    
-    <div class="package-card package-ssm">
-      <div class="package-icon">Pachet SSM & JURIDIC</div>
-      <div class="package-content">
-        <h3></h3>
-        <p class="package-description">Servicii complete de securitate și sănătate în muncă plus consultanță juridică specializată.</p>
-        
-        <div class="package-features">
-          <div class="feature-item">✓ Evaluări de risc SSM</div>
-          <div class="feature-item">✓ Instruiri periodice SSM</div>
-          <div class="feature-item">✓ Fișe de securitate</div>
-          <div class="feature-item">✓ Consultanță juridică</div>
-          <div class="feature-item">✓ Documente și formalități ONRC</div>
-          <div class="feature-item">✓ Reprezentare în relații cu autoritățile</div>
-        </div>
-        
-        <div class="package-price">De la <span class="price-amount">200 RON</span>/lună</div>
-      </div>
-    </div>
-    
-    <div class="package-card package-onrc">
-      <div class="package-icon">Pachet ONRC</div>
-      <div class="package-content">
-        <h3></h3>
-        <p class="package-description">Servicii complete pentru înființări, modificări și toate procedurile registrului comerțului.</p>
-        
-        <div class="package-features">
-          <div class="feature-item">✓ Înființări societăți comerciale</div>
-          <div class="feature-item">✓ Modificări statute și acte constitutive</div>
-          <div class="feature-item">✓ Radieri și lichidări</div>
-          <div class="feature-item">✓ Schimbări sediu social</div>
-          <div class="feature-item">✓ Modificări capital social</div>
-          <div class="feature-item">✓ Toate formalitățile ONRC</div>
-        </div>
-        
-        <div class="package-price">De la <span class="price-amount">150 RON</span>/procedură</div>
-      </div>
+    <div class="col-12 col-md-5 oferta-hero-icons">
+      <img src="/assets/svg/icons/calculator.svg" alt="Contabilitate" width="64" height="64">
+      <img src="/assets/svg/icons/document.svg" alt="Fiscalitate" width="64" height="64">
+      <img src="/assets/svg/icons/briefcase.svg" alt="Afaceri" width="64" height="64">
     </div>
   </div>
 </div>
 
----
+<div class="oferta-services-section">
+  <h2>Alege tipul de serviciu</h2>
 
-## Solicită Ofertă Personalizată {#solicită-ofertă-personalizată}
+  <div class="oferta-services-grid">
+    <div class="oferta-service-card">
+      <div class="oferta-service-icon">
+        <img src="/assets/svg/icons/accounting.svg" alt="Contabilitate" width="64" height="64">
+      </div>
+      <h3>CONTABILITATE & FISCALITATE</h3>
+      <ul>
+        <li>Înregistrări contabile</li>
+        <li>Declarații ANAF</li>
+        <li>D406 / SAF-T</li>
+        <li>Consultanță fiscală</li>
+      </ul>
+      <a href="#trimite-cerere" class="oferta-service-btn">Solicită oferta</a>
+    </div>
 
-Completează formularul de mai jos pentru a primi o ofertă detaliată adaptată nevoilor companiei tale:
+    <div class="oferta-service-card">
+      <div class="oferta-service-icon">
+        <img src="/assets/svg/icons/hr.svg" alt="HR" width="64" height="64">
+      </div>
+      <h3>HR & SALARIZARE</h3>
+      <ul>
+        <li>REVISAL</li>
+        <li>Contracte</li>
+        <li>Dosare personale</li>
+        <li>Calcul salarii</li>
+      </ul>
+      <a href="#trimite-cerere" class="oferta-service-btn">Solicită oferta</a>
+    </div>
 
-<div class="quote-form">
-  <form action="https://formspree.io/f/xkgkngwa" method="POST" class="form">
-    <div class="form-group">
-      <label for="company_name">Nume Companie *</label>
-      <input type="text" name="company_name" id="company_name" required>
+    <div class="oferta-service-card">
+      <div class="oferta-service-icon">
+        <img src="/assets/svg/icons/ssm.svg" alt="SSM" width="64" height="64">
+      </div>
+      <h3>SSM / PSI</h3>
+      <ul>
+        <li>Evaluări risc</li>
+        <li>Instruiri SSM</li>
+        <li>Documentație completă</li>
+      </ul>
+      <a href="#trimite-cerere" class="oferta-service-btn">Solicită oferta</a>
     </div>
-    
-    <div class="form-group">
-      <label for="contact_person">Persoană de Contact *</label>
-      <input type="text" name="contact_person" id="contact_person" required>
+
+    <div class="oferta-service-card">
+      <div class="oferta-service-icon">
+        <img src="/assets/svg/icons/onrc.svg" alt="ONRC" width="64" height="64">
+      </div>
+      <h3>ONRC & SERVICII JURIDICE</h3>
+      <ul>
+        <li>Înființări</li>
+        <li>Modificări</li>
+        <li>Rezervări de denumire</li>
+      </ul>
+      <a href="#trimite-cerere" class="oferta-service-btn">Serviciile noastre</a>
     </div>
-    
-    <div class="form-group">
-      <label for="email">Email *</label>
-      <input type="email" name="email" id="email" required>
-    </div>
-    
-    <div class="form-group">
-      <label for="phone">Telefon</label>
-      <input type="tel" name="phone" id="phone">
-    </div>
-    
-    <div class="form-group">
-      <label for="company_size">Numărul de Angajați</label>
-      <select name="company_size" id="company_size">
-        <option value="">Alege dimensiunea companiei</option>
-        <option value="1-5">1-5 angajați</option>
-        <option value="6-15">6-15 angajați</option>
-        <option value="16-50">16-50 angajați</option>
-        <option value="50+">50+ angajați</option>
-      </select>
-    </div>
-    
-    <div class="form-group">
-      <label for="services">Serviciile de Interes *</label>
-      <div class="checkbox-group">
-        <label class="checkbox-label">
-          <input type="checkbox" name="services" value="contabilitate"> Contabilitate & Fiscalitate
-        </label>
-        <label class="checkbox-label">
-          <input type="checkbox" name="services" value="hr"> HR Administrativ & Salarizare
-        </label>
-        <label class="checkbox-label">
-          <input type="checkbox" name="services" value="ssm"> SSM & Servicii Juridice
-        </label>
-        <label class="checkbox-label">
-          <input type="checkbox" name="services" value="onrc"> ONRC - Înființări & Modificări
-        </label>
+  </div>
+</div>
+
+<div class="oferta-bottom-section">
+  <div class="row">
+    <div class="col-12 col-md-5">
+      <h3>Ce primești în ofertă</h3>
+      <div class="oferta-checklist">
+        <div class="oferta-check-item">Preluare completă a serviciilor selectate</div>
+        <div class="oferta-check-item">Analiză profesională a situației actuale</div>
+        <div class="oferta-check-item">Consultanță fiscală / HR / SSM / juridică în funcție de necesități</div>
+        <div class="oferta-check-item">Pachet personalizat pentru structura firmei tale</div>
       </div>
     </div>
-    
-    <div class="form-group">
-      <label for="current_situation">Situația Actuală</label>
-      <select name="current_situation" id="current_situation">
-        <option value="">Alege situația actuală</option>
-        <option value="startup">Companie nou înființată</option>
-        <option value="existing">Companie existentă</option>
-        <option value="change">Vreau să schimb furnizorul actual</option>
-        <option value="expansion">Extindere/creștere afacere</option>
-      </select>
+    <div class="col-12 col-md-7" id="trimite-cerere">
+      <h3>Trimite Cererea de Ofertă</h3>
+      <form action="https://formspree.io/f/xkgkngwa" method="POST" class="oferta-form">
+        <div class="oferta-form-group">
+          <input type="text" name="company_name" placeholder="Nume companie" required>
+        </div>
+        <div class="oferta-form-group">
+          <input type="text" name="cui" placeholder="CUI">
+        </div>
+        <div class="oferta-form-row">
+          <div class="oferta-form-group">
+            <input type="text" name="contact_person" placeholder="Persoană de contact">
+          </div>
+          <div class="oferta-form-group">
+            <input type="tel" name="phone" placeholder="Telefon">
+          </div>
+        </div>
+        <div class="oferta-form-row">
+          <div class="oferta-form-group">
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <div class="oferta-form-group">
+            <input type="text" name="domain" placeholder="Domeniu activitate">
+          </div>
+        </div>
+        <div class="oferta-form-group">
+          <input type="text" name="employees" placeholder="Număr angajați">
+        </div>
+        <div class="oferta-form-group">
+          <textarea name="message" rows="4" placeholder="Mesaj"></textarea>
+        </div>
+        <button type="submit" class="btn-oferta-submit">Trimite Cererea de Ofertă</button>
+        <p class="oferta-form-note">Te vom contacta pentru detalii suplimentare.</p>
+        <input type="hidden" name="_next" value="https://awg.chen.ist/thank-you/">
+        <input type="hidden" name="_subject" value="Cerere Oferta Personalizata">
+      </form>
     </div>
-    
-    <div class="form-group">
-      <label for="additional_info">Informații Adiționale</label>
-      <textarea name="additional_info" id="additional_info" rows="5" placeholder="Descrie specificul afacerii tale, nevoi speciale sau întrebări pe care le ai..."></textarea>
-    </div>
-    
-    <div class="form-group">
-      <button type="submit" class="btn btn-primary">Solicită Oferta</button>
-    </div>
-    
-    <input type="hidden" name="_next" value="http://localhost:4000/thank-you/">
-    <input type="hidden" name="_subject" value="New Quote Request">
-  </form>
+  </div>
 </div>
 
 <style>
-/* Packages Section - Modern Flat Design */
-.packages-section {
-  margin: 4rem 0;
+/* Oferta Hero */
+.oferta-hero {
   padding: 3rem 0;
-  background: white;
-  /* Dark mode: var(--card-bg, #292929) */
+  margin-bottom: 3rem;
 }
 
-.packages-section h2 {
-  text-align: center;
-  color: #FCC900;
+.oferta-title {
   font-size: 2.5rem;
   font-weight: 700;
+  color: #1a1a1a;
   margin-bottom: 1rem;
+  line-height: 1.2;
 }
 
-.section-subtitle {
-  text-align: center;
+.oferta-subtitle {
+  font-size: 1.1rem;
   color: #666;
-  font-size: 1.2rem;
-  margin-bottom: 3rem;
-  font-weight: 400;
-}
-
-.packages-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.package-card {
-  background: var(--card-bg, white);
-  border-radius: 16px;
-  padding: 0;
-  box-shadow: 0 8px 32px rgba(252, 201, 0, 0.08);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: hidden;
-  border: 1px solid rgba(252, 201, 0, 0.05);
-}
-
-.package-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(252, 201, 0, 0.15);
-}
-
-.package-icon {
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-align: center;
-  padding: 2rem 1rem 1rem;
-  background: linear-gradient(135deg, #FCC900 0%, #e6b500 100%);
-  margin: 0;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.package-content {
-  padding: 2rem;
-}
-
-.package-content h3 {
-  color: #FCC900;
-  font-size: 1.4rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.package-description {
-  color: #666;
-  font-size: 1rem;
+  margin-bottom: 2rem;
   line-height: 1.6;
-  margin-bottom: 2rem;
-  text-align: center;
 }
 
-.package-features {
+.btn-oferta-cta {
+  display: inline-block;
+  padding: 0.85rem 2rem;
+  background: #FCC900;
+  color: #1a1a1a;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 2px solid #FCC900;
+  transition: all 0.3s ease;
+}
+
+.btn-oferta-cta:hover {
+  background: transparent;
+  color: #FCC900;
+}
+
+.oferta-hero-icons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+/* Services Grid */
+.oferta-services-section {
+  margin-bottom: 4rem;
+}
+
+.oferta-services-section h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a1a1a;
   margin-bottom: 2rem;
 }
 
-.feature-item {
+.oferta-services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.oferta-service-card {
+  background: #fff;
+  border: 1px solid #e8e4da;
+  border-radius: 16px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.oferta-service-card:hover {
+  box-shadow: 0 8px 30px rgba(252, 201, 0, 0.12);
+  transform: translateY(-4px);
+}
+
+.oferta-service-icon {
+  margin-bottom: 1rem;
+}
+
+.oferta-service-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.75rem;
+}
+
+.oferta-service-card ul {
+  list-style: disc;
+  padding-left: 1.2rem;
+  margin-bottom: 1.25rem;
+}
+
+.oferta-service-card li {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.oferta-service-btn {
+  display: inline-block;
+  padding: 0.4rem 1.2rem;
+  border: 2px solid #FCC900;
+  color: #1a1a1a;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.oferta-service-btn:hover {
+  background: #FCC900;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+/* Bottom section */
+.oferta-bottom-section {
+  margin-bottom: 3rem;
+}
+
+.oferta-bottom-section h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+}
+
+.oferta-checklist {
+  margin-bottom: 2rem;
+}
+
+.oferta-check-item {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
   color: #555;
   font-size: 0.95rem;
-  margin-bottom: 0.75rem;
-  padding-left: 0.5rem;
   line-height: 1.5;
 }
 
-.package-price {
-  background: #f8f9fa;
-  border-radius: 12px;
-  padding: 1.5rem;
-  text-align: center;
+.oferta-check-item::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
   color: #FCC900;
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: -1rem;
-  margin-top: 1rem;
-}
-
-.price-amount {
-  font-size: 1.4rem;
   font-weight: 700;
-  color: #e74c3c;
 }
 
-/* Advantages Section */
-.advantages-section {
-  margin: 4rem 0;
-  padding: 3rem 2rem;
+/* Form */
+.oferta-form {
+  background: #fff;
 }
 
-.advantages-section h2 {
-  text-align: center;
-  color: #FCC900;
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 3rem;
+.oferta-form-group {
+  margin-bottom: 1rem;
+  flex: 1;
 }
 
-.advantages-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.advantage-item {
+.oferta-form-row {
   display: flex;
-  align-items: flex-start;
   gap: 1rem;
-  padding: 1.5rem;
-  background: var(--card-bg, white);
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(252, 201, 0, 0.06);
-  transition: all 0.3s ease;
-  border: 1px solid rgba(252, 201, 0, 0.05);
 }
 
-.advantage-item:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(252, 201, 0, 0.12);
-}
-
-.advantage-icon {
-  font-size: 2rem;
-  min-width: 3rem;
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, #FCC900 0%, #e6b500 100%);
-  border-radius: 50%;
-  margin-top: 0.25rem;
-}
-
-.advantage-content h4 {
-  color: #FCC900;
-  font-size: 1.1rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-  line-height: 1.3;
-}
-
-.advantage-content p {
-  color: #666;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  margin: 0;
-}
-
-/* Form Styling */
-.quote-form {
-  background: var(--card-bg, white);
-  padding: 3rem;
-  border-radius: 16px;
-  margin: 3rem 0;
-  box-shadow: 0 12px 40px rgba(252, 201, 0, 0.08);
-  border: 1px solid rgba(252, 201, 0, 0.05);
-}
-
-.form-group {
-  margin-bottom: 2rem;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 0.75rem;
-  font-weight: 600;
-  color: #FCC900;
-  font-size: 1rem;
-}
-
-.form-group input,
-.form-group select,
-.form-group textarea {
+.oferta-form input,
+.oferta-form textarea {
   width: 100%;
-  padding: 1rem;
-  border: 2px solid #e9ecef;
-  border-radius: 8px;
-  font-size: 1rem;
-  transition: all 0.3s ease;
-  background: #f8f9fa;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d4c9a8;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: border-color 0.3s ease;
+  background: #fff;
 }
 
-.form-group input:focus,
-.form-group select:focus,
-.form-group textarea:focus {
+.oferta-form input:focus,
+.oferta-form textarea:focus {
   outline: none;
   border-color: #FCC900;
-  background: white;
-  box-shadow: 0 0 0 3px rgba(252, 201, 0, 0.1);
+  box-shadow: 0 0 0 2px rgba(252, 201, 0, 0.15);
 }
 
-.checkbox-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  background: #f8f9fa;
+.btn-oferta-submit {
+  display: block;
+  width: 100%;
   padding: 1rem;
-  border-radius: 8px;
-  border: 2px solid #e9ecef;
-}
-
-.checkbox-label {
-  display: flex !important;
-  align-items: center;
-  font-weight: 500 !important;
-  cursor: pointer;
-  padding: 0.5rem;
-  border-radius: 6px;
-  transition: background 0.2s ease;
-}
-
-.checkbox-label:hover {
-  background: rgba(252, 201, 0, 0.05);
-}
-
-.checkbox-label input[type="checkbox"] {
-  width: auto !important;
-  margin-right: 0.75rem;
-  transform: scale(1.2);
-}
-
-.btn {
-  padding: 1rem 2.5rem;
+  background: #FCC900;
+  color: #1a1a1a;
+  font-weight: 700;
+  font-size: 1.05rem;
   border: none;
-  border-radius: 8px;
-  font-size: 1.1rem;
-  font-weight: 600;
+  border-radius: 6px;
   cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s ease;
+}
+
+.btn-oferta-submit:hover {
+  background: #e6b500;
+}
+
+.oferta-form-note {
   text-align: center;
-  min-width: 200px;
+  color: #999;
+  font-size: 0.85rem;
+  margin-top: 0.75rem;
 }
 
-.btn-primary {
-  background: linear-gradient(135deg, #FCC900 0%, #e6b500 100%);
-  color: white;
-  box-shadow: 0 4px 16px rgba(252, 201, 0, 0.2);
-}
-
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(252, 201, 0, 0.3);
-  background: linear-gradient(135deg, #d9a800 0%, #FCC900 100%);
-}
-
-/* Responsive Design */
+/* Responsive */
 @media (max-width: 768px) {
-  .packages-section {
-    padding: 2rem 0;
-    margin: 2rem 0;
-  }
-  
-  .packages-section h2 {
+  .oferta-title {
     font-size: 2rem;
   }
-  
-  .packages-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-  
-  .package-content {
-    padding: 1.5rem;
-  }
-  
-  .advantages-section {
-    padding: 2rem 1rem;
-  }
-  
-  .advantages-section h2 {
-    font-size: 2rem;
-  }
-  
-  .advantages-grid {
-    grid-template-columns: 1fr;
+
+  .oferta-services-grid {
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
-  
-  .advantage-item {
-    padding: 1rem;
+
+  .oferta-form-row {
+    flex-direction: column;
+    gap: 0;
   }
-  
-  .quote-form {
-    padding: 2rem 1.5rem;
-    margin: 2rem 0;
+
+  .oferta-hero-icons {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .oferta-services-grid {
+    grid-template-columns: 1fr;
   }
 }
 </style>
-
-<div class="advantages-section">
-  <h2 id="avantajele-colaborării">Avantajele Colaborării cu AWG Consulting</h2>
-  
-  <div class="advantages-grid">
-    <div class="advantage-item">
-      <div class="advantage-icon">🎯</div>
-      <div class="advantage-content">
-        <h4>Experiență Solidă</h4>
-        <p>Echipă cu experiență vastă în domeniul serviciilor administrative</p>
-      </div>
-    </div>
-    
-    <div class="advantage-item">
-      <div class="advantage-icon">🔧</div>
-      <div class="advantage-content">
-        <h4>Soluții Personalizate</h4>
-        <p>Pachete adaptate nevoilor specifice ale fiecărei afaceri</p>
-      </div>
-    </div>
-    
-    <div class="advantage-item">
-      <div class="advantage-icon">💰</div>
-      <div class="advantage-content">
-        <h4>Prețuri Competitive</h4>
-        <p>Tarife transparente și competitive pe piață</p>
-      </div>
-    </div>
-    
-    <div class="advantage-item">
-      <div class="advantage-icon">🔄</div>
-      <div class="advantage-content">
-        <h4>Suport Permanent</h4>
-        <p>Consultanță și asistență ori de câte ori ai nevoie</p>
-      </div>
-    </div>
-    
-    <div class="advantage-item">
-      <div class="advantage-icon">✅</div>
-      <div class="advantage-content">
-        <h4>Conformitate Garantată</h4>
-        <p>Respectarea tuturor obligațiilor legale și fiscale</p>
-      </div>
-    </div>
-    
-    <div class="advantage-item">
-      <div class="advantage-icon">⚡</div>
-      <div class="advantage-content">
-        <h4>Tehnologie Modernă</h4>
-        <p>Utilizarea celor mai noi instrumente și sisteme</p>
-      </div>
-    </div>
-  </div>
-</div>
-
----
-
-## De Ce Să Alegi AWG Consulting? {#de-ce-să-alegi-awg-consulting}
-
-Suntem o echipă de profesioniști dedicați să îți oferim cele mai bune servicii administrative pentru afacerea ta. Cu experiența noastră vastă și abordarea personalizată, îți garantăm:
-
-- **Servicii de calitate superioară** la prețuri competitive
-- **Consultanță specializată** pentru toate aspectele administrative
-- **Economisirea timpului** pentru a te concentra pe dezvoltarea afacerii
-- **Conformitatea completă** cu toate reglementările în vigoare
-- **Transparență totală** în comunicare și facturare
-
----
-
-**Gata să primești o ofertă personalizată?** Completează formularul de mai sus sau [contactează-ne direct](/contact/) pentru o consultație gratuită.
