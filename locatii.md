@@ -21,7 +21,7 @@ Suntem prezenti în județul Ilfov cu două birouri strategice poziționate pent
 
 ### Servicii Disponibile
 Toate serviciile AWG Activ Consulting sunt disponibile la biroul din Buftea:
-- [consultanta financiara](/servicii/consultanta financiara/)
+- [Consultanta financiara](/servicii/consultanta-financiara/)
 - [HR Administrativ & Salarizare](/servicii/hr/)
 - [SSM & Servicii Juridice](/servicii/ssm/)
 - [ONRC - Înființări & Modificări](/servicii/onrc/)
@@ -39,7 +39,7 @@ Toate serviciile AWG Activ Consulting sunt disponibile la biroul din Buftea:
 
 ### Servicii Disponibile
 Toate serviciile AWG Activ Consulting sunt disponibile la biroul din Pipera:
-- [consultanta financiara](/servicii/consultanta financiara/)
+- [Consultanta financiara](/servicii/consultanta-financiara/)
 - [HR Administrativ & Salarizare](/servicii/hr/)
 - [SSM & Servicii Juridice](/servicii/ssm/)
 - [ONRC - Înființări & Modificări](/servicii/onrc/)
