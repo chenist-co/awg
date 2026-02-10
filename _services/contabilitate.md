@@ -1,5 +1,5 @@
 ---
-title: "Contabilitate & Fiscalitate"
+title: "Consultanta financiara"
 date: 2025-11-10
 weight: 1
 layout: service
@@ -9,14 +9,14 @@ Gestiune completă a contabilității și conformitate fiscală pentru compania 
 
 ## Serviciile Include:
 
-### Contabilitate Completă
+### Consultanta Financiara Completă
 - Înregistrări contabile zilnice
 - Balanțe de verificare lunare
 - Rapoarte financiare periodice
 - Situații financiare anuale
 - Gestiunea documentelor contabile
 
-### Fiscalitate & Declarații
+### Declarații
 - Declarații fiscale (100, 112, 394, etc.)
 - Gestiunea TVA și declarații
 - Raportări către ANAF

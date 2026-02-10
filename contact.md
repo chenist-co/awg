@@ -1,7 +1,7 @@
 ---
-title: Contact AWG Consulting
+title: Contact AWG Active Consulting
 layout: contact
-description: Contactați-ne pentru servicii specializate de contabilitate, fiscalitate, HR și administrare de afaceri în România
+description: Contactați-ne pentru servicii specializate de consultanta financiara, HR și administrare de afaceri în România
 ---
 
 # Ia Legătura cu Noi {#ia-legătura-cu-noi}
@@ -25,9 +25,9 @@ Suntem aici să te ajutăm să navighezi prin complexitatea administrării aface
 **Biroul Buftea**: Str. Șaua Verde nr. 8, Județul Ilfov  
 **Biroul Pipera**: Str. Costache Radu nr. 6F, Județul Ilfov
 
-## De Ce Să Alegi AWG Consulting? {#de-ce-să-alegi-awg-consulting}
+## De Ce Să Alegi AWG Active Consulting? {#de-ce-să-alegi-awg-consulting}
 
-- **Experiență Solidă**: Companie românească cu experiență în contabilitate, fiscalitate și legislația muncii
+- **Experiență Solidă**: Companie românească cu experiență în consultanta financiara și legislația muncii
 - **Servicii Complete**: Soluții integrate pentru toate nevoile administrative
 - **Profesionalism**: Servicii oferite cu profesionalism, eficiență și transparență
 - **Personalizare**: Soluții adaptate nevoilor fiecărei afaceri

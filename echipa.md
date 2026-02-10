@@ -4,23 +4,23 @@ title: Echipa
 permalink: /despre/echipa/
 ---
 
-# Echipa AWG Consulting
+# Echipa AWG Activ Consulting
 
 ## Experții tăi în servicii administrative
 
-Echipa AWG Consulting este formată din profesioniști cu experiență vastă în domeniul contabilității, fiscalității și administrării afacerilor. Fiecare membru al echipei aduce expertiza și dedicarea necesară pentru a oferi servicii de cea mai înaltă calitate.
+Echipa AWG Activ Consulting este formată din profesioniști cu experiență vastă în domeniul contabilității, fiscalității și administrării afacerilor. Fiecare membru al echipei aduce expertiza și dedicarea necesară pentru a oferi servicii de cea mai înaltă calitate.
 
 ## Consultant Principal
 
 ### Andreea Violeta Gheorghe
 **Consultant Principal**
 
-Andreea Violeta Gheorghe este consultant cu vastă experiență în contabilitate, fiscalitate și legislația muncii, dedicată succesului clienților noștri. Cu o abordare personalizată și atenție la detalii, ea coordonează toate aspectele operaționale ale AWG Consulting, aducând expertiza necesară pentru a gestiona cele mai complexe situații administrative.
+Andreea Violeta Gheorghe este consultant cu vastă experiență în consultanta financiara și legislația muncii, dedicată succesului clienților noștri. Cu o abordare personalizată și atenție la detalii, ea coordonează toate aspectele operaționale ale AWG Activ Consulting, aducând expertiza necesară pentru a gestiona cele mai complexe situații administrative.
 
 Formată profesional în cadrul unor companii de top din industrie, Andreea combină cunoștințele teoretice solide cu experiența practică pentru a oferi soluții adaptate nevoilor fiecărui client.
 
 #### Specializări:
-- **Contabilitate Avansată**: Gestiune completă a contabilității pentru companii de toate dimensiunile
+- **Consultanta Financiara Avansată**: Gestiune completă a contabilității pentru companii de toate dimensiunile
 - **Fiscalitate**: Optimizare fiscală legală și conformitate cu reglementările ANAF
 - **Legislația Muncii**: Administrare HR completă și conformitate cu legislația în vigoare
 - **ONRC**: Proceduri complexe de înființări, modificări și radieri
@@ -33,7 +33,7 @@ Formată profesional în cadrul unor companii de top din industrie, Andreea comb
 
 ## Echipa de Specialiști
 
-### Departamentul Contabilitate
+### Departamentul consultanta financiara
 Echipa noastră de contabili certificați gestionează toate aspectele financiare ale afacerii tale, de la înregistrări zilnice la rapoarte anuale complexe.
 
 ### Departamentul Fiscal
@@ -65,7 +65,7 @@ Fiecare membru al echipei înțelege că succesul clientului este succesul nostr
 
 ## Dezvoltare Profesională
 
-Echipa AWG Consulting beneficiază de:
+Echipa AWG Activ Consulting beneficiază de:
 - Programe continue de formare profesională
 - Participare la conferințe de specialitate
 - Acces la cele mai noi instrumente și tehnologii

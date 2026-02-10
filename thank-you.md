@@ -6,7 +6,7 @@ permalink: /thank-you/
 
 # Thank You!
 
-Your message has been sent successfully. We appreciate you taking the time to contact AWG Consulting.
+Your message has been sent successfully. We appreciate you taking the time to contact AWG Activ Consulting.
 
 ## What happens next?
 

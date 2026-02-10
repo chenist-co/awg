@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# AWG Consulting Jekyll Development Script
+# AWG Activ Consulting Jekyll Development Script
 # Usage: ./run.sh [command]
 
 set -e
@@ -10,7 +10,7 @@ BLUE='\033[0;34m'
 RED='\033[0;31m'
 NC='\033[0m' # No Color
 
-echo -e "${BLUE}AWG Consulting Jekyll Development${NC}"
+echo -e "${BLUE}AWG Activ Consulting Jekyll Development${NC}"
 echo "=================================="
 
 # Default command

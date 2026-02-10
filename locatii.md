@@ -4,7 +4,7 @@ title: Locații
 permalink: /locatii/
 ---
 
-# Locațiile AWG Consulting {#locațiile-awg-consulting}
+# Locațiile AWG Activ Consulting {#locațiile-awg-consulting}
 
 Suntem prezenti în județul Ilfov cu două birouri strategice poziționate pentru a deservi eficient clienții din toată regiunea de sud a României.
 
@@ -20,8 +20,8 @@ Suntem prezenti în județul Ilfov cu două birouri strategice poziționate pent
 - **Parcare**: Disponibilă în apropierea biroului
 
 ### Servicii Disponibile
-Toate serviciile AWG Consulting sunt disponibile la biroul din Buftea:
-- [Contabilitate & Fiscalitate](/servicii/contabilitate/)
+Toate serviciile AWG Activ Consulting sunt disponibile la biroul din Buftea:
+- [consultanta financiara](/servicii/consultanta financiara/)
 - [HR Administrativ & Salarizare](/servicii/hr/)
 - [SSM & Servicii Juridice](/servicii/ssm/)
 - [ONRC - Înființări & Modificări](/servicii/onrc/)
@@ -38,8 +38,8 @@ Toate serviciile AWG Consulting sunt disponibile la biroul din Buftea:
 - **Parcare**: Facilități de parcare disponibile
 
 ### Servicii Disponibile
-Toate serviciile AWG Consulting sunt disponibile la biroul din Pipera:
-- [Contabilitate & Fiscalitate](/servicii/contabilitate/)
+Toate serviciile AWG Activ Consulting sunt disponibile la biroul din Pipera:
+- [consultanta financiara](/servicii/consultanta financiara/)
 - [HR Administrativ & Salarizare](/servicii/hr/)
 - [SSM & Servicii Juridice](/servicii/ssm/)
 - [ONRC - Înființări & Modificări](/servicii/onrc/)
@@ -134,7 +134,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(mapBuftea);
 
 L.marker([44.56425291986727, 25.930383174388947]).addTo(mapBuftea)
-    .bindPopup('<b>AWG Consulting - Biroul Buftea</b><br>Str. Șaua Verde nr. 8<br>Buftea, Județul Ilfov')
+    .bindPopup('<b>AWG Activ Consulting - Biroul Buftea</b><br>Str. Șaua Verde nr. 8<br>Buftea, Județul Ilfov')
     .openPopup();
 
 // Initialize Pipera map
@@ -144,7 +144,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(mapPipera);
 
 L.marker([44.50217842738087, 26.13772978685107]).addTo(mapPipera)
-    .bindPopup('<b>AWG Consulting - Biroul Pipera</b><br>Str. Costache Radu nr. 6F<br>Sat Pipera, Județul Ilfov')
+    .bindPopup('<b>AWG Activ Consulting - Biroul Pipera</b><br>Str. Costache Radu nr. 6F<br>Sat Pipera, Județul Ilfov')
     .openPopup();
 </script>
 

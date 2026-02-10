@@ -1,10 +1,10 @@
-# AWG Consulting Website
+# AWG Activ Consulting Website
 
 Professional Romanian business website built with Jekyll. Complete with Romanian translations, custom domain support, and modern flat design.
 
 🌐 **Live Site:** [https://awg.chen.ist](https://awg.chen.ist)
 
-![AWG Consulting Website](images/logo/logo.svg)
+![AWG Activ Consulting Website](images/logo/logo.svg)
 
 ## Quick Start
 

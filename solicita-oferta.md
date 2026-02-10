@@ -2,19 +2,19 @@
 layout: page
 title: Solicită Oferte Personalizate
 permalink: /solicita-oferta/
-description: Servicii administrative complete, adaptate firmei tale - contabilitate, HR, fiscalitate.
+description: Servicii administrative complete, adaptate firmei tale - consultanta financiara, HR.
 ---
 
 <div class="oferta-hero">
   <div class="row align-items-center">
     <div class="col-12 col-md-7">
       <h1 class="oferta-title">Solicită Oferte Personalizate</h1>
-      <p class="oferta-subtitle">Servicii administrative complete, adaptate firmei tale. Contabilitate, HR, fiscalitate.</p>
+      <p class="oferta-subtitle">Servicii administrative complete, adaptate firmei tale. consultanta financiara, HR.</p>
       <a href="#trimite-cerere" class="btn-oferta-cta">Primește Oferta</a>
     </div>
     <div class="col-12 col-md-5 oferta-hero-icons">
-      <img src="/assets/svg/icons/calculator.svg" alt="Contabilitate" width="64" height="64">
-      <img src="/assets/svg/icons/document.svg" alt="Fiscalitate" width="64" height="64">
+      <img src="/assets/svg/icons/calculator.svg" alt="consultanta financiara" width="64" height="64">
+      <img src="/assets/svg/icons/document.svg" alt="Consultanta financiara" width="64" height="64">
       <img src="/assets/svg/icons/briefcase.svg" alt="Afaceri" width="64" height="64">
     </div>
   </div>
@@ -26,9 +26,9 @@ description: Servicii administrative complete, adaptate firmei tale - contabilit
   <div class="oferta-services-grid">
     <div class="oferta-service-card">
       <div class="oferta-service-icon">
-        <img src="/assets/svg/icons/accounting.svg" alt="Contabilitate" width="64" height="64">
+        <img src="/assets/svg/icons/accounting.svg" alt="consultanta financiara" width="64" height="64">
       </div>
-      <h3>CONTABILITATE & FISCALITATE</h3>
+      <h3>Consultanta financiara</h3>
       <ul>
         <li>Înregistrări contabile</li>
         <li>Declarații ANAF</li>
