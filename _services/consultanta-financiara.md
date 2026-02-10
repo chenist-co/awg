@@ -3,6 +3,7 @@ title: "Consultanta financiara"
 date: 2025-11-10
 weight: 1
 layout: service
+permalink: /servicii/consultanta-financiara/
 ---
 
 Gestiune completă a contabilității și conformitate fiscală pentru compania ta. Servicii specializate de management financiar pentru a menține afacerea ta sănătoasă din punct de vedere financiar și conformă cu reglementările românești.
