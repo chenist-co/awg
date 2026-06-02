@@ -41,6 +41,63 @@
 </form>
 
 <style>
+.oferta-form {
+  background: #fff;
+}
+
+.oferta-form-group {
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.oferta-form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.oferta-form input,
+.oferta-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d4c9a8;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: border-color 0.3s ease;
+  background: #fff;
+}
+
+.oferta-form input:focus,
+.oferta-form textarea:focus {
+  outline: none;
+  border-color: #FCC900;
+  box-shadow: 0 0 0 2px rgba(252, 201, 0, 0.15);
+}
+
+.btn-oferta-submit {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background: #FCC900;
+  color: #1a1a1a;
+  font-weight: 700;
+  font-size: 1.05rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-oferta-submit:hover {
+  background: #e6b500;
+}
+
+.oferta-form-note {
+  text-align: center;
+  color: #999;
+  font-size: 0.85rem;
+  margin-top: 0.75rem;
+}
+
 .oferta-form-check {
   margin: 0.5rem 0 1rem;
 }
@@ -65,5 +122,12 @@
 .oferta-form-check a {
   color: #1a1a1a;
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .oferta-form-row {
+    flex-direction: column;
+    gap: 0;
+  }
 }
 </style>
