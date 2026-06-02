@@ -29,12 +29,12 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
         <img src="/assets/svg/icons/accounting.svg" alt="consultanta financiara" width="64" height="64">
       </div>
       <h3>Consultanta financiara</h3>
-      <ul>
-        <li>Înregistrări contabile</li>
-        <li>Declarații ANAF</li>
-        <li>D406 / SAF-T</li>
-        <li>Consultanță fiscală</li>
-      </ul>
+      <div class="oferta-service-items">
+        <p>Înregistrări contabile</p>
+        <p>Declarații ANAF</p>
+        <p>D406 / SAF-T</p>
+        <p>Consultanță fiscală</p>
+      </div>
       <a href="#trimite-cerere" class="oferta-service-btn">Solicită oferta</a>
     </div>
 
@@ -43,12 +43,12 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
         <img src="/assets/svg/icons/hr.svg" alt="HR" width="64" height="64">
       </div>
       <h3>HR & SALARIZARE</h3>
-      <ul>
-        <li>REVISAL</li>
-        <li>Contracte</li>
-        <li>Dosare personale</li>
-        <li>Calcul salarii</li>
-      </ul>
+      <div class="oferta-service-items">
+        <p>REVISAL</p>
+        <p>Contracte</p>
+        <p>Dosare personale</p>
+        <p>Calcul salarii</p>
+      </div>
       <a href="#trimite-cerere" class="oferta-service-btn">Solicită oferta</a>
     </div>
 
@@ -57,11 +57,11 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
         <img src="/assets/svg/icons/ssm.svg" alt="SSM" width="64" height="64">
       </div>
       <h3>SSM / PSI</h3>
-      <ul>
-        <li>Evaluări risc</li>
-        <li>Instruiri SSM</li>
-        <li>Documentație completă</li>
-      </ul>
+      <div class="oferta-service-items">
+        <p>Evaluări risc</p>
+        <p>Instruiri SSM</p>
+        <p>Documentație completă</p>
+      </div>
       <a href="#trimite-cerere" class="oferta-service-btn">Solicită oferta</a>
     </div>
 
@@ -70,11 +70,11 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
         <img src="/assets/svg/icons/onrc.svg" alt="ONRC" width="64" height="64">
       </div>
       <h3>ONRC & SERVICII JURIDICE</h3>
-      <ul>
-        <li>Înființări</li>
-        <li>Modificări</li>
-        <li>Rezervări de denumire</li>
-      </ul>
+      <div class="oferta-service-items">
+        <p>Înființări</p>
+        <p>Modificări</p>
+        <p>Rezervări de denumire</p>
+      </div>
       <a href="#trimite-cerere" class="oferta-service-btn">Solicită oferta</a>
     </div>
   </div>
@@ -196,7 +196,12 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
   margin-bottom: 1.25rem;
 }
 
-.oferta-service-card li {
+.oferta-service-items {
+  flex: 1;
+  margin-bottom: 1.25rem;
+}
+
+.oferta-service-items p {
   font-size: 0.9rem;
   color: #555;
   margin-bottom: 0.3rem;
