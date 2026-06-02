@@ -75,7 +75,7 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
         <li>Modificări</li>
         <li>Rezervări de denumire</li>
       </ul>
-      <a href="#trimite-cerere" class="oferta-service-btn">Serviciile noastre</a>
+      <a href="#trimite-cerere" class="oferta-service-btn">Solicită oferta</a>
     </div>
   </div>
 </div>
@@ -93,40 +93,7 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
     </div>
     <div class="col-12 col-md-7" id="trimite-cerere">
       <h3>Trimite Cererea de Ofertă</h3>
-      <form action="https://formspree.io/f/xkgkngwa" method="POST" class="oferta-form">
-        <div class="oferta-form-group">
-          <input type="text" name="company_name" placeholder="Nume companie" required>
-        </div>
-        <div class="oferta-form-group">
-          <input type="text" name="cui" placeholder="CUI">
-        </div>
-        <div class="oferta-form-row">
-          <div class="oferta-form-group">
-            <input type="text" name="contact_person" placeholder="Persoană de contact">
-          </div>
-          <div class="oferta-form-group">
-            <input type="tel" name="phone" placeholder="Telefon">
-          </div>
-        </div>
-        <div class="oferta-form-row">
-          <div class="oferta-form-group">
-            <input type="email" name="email" placeholder="Email" required>
-          </div>
-          <div class="oferta-form-group">
-            <input type="text" name="domain" placeholder="Domeniu activitate">
-          </div>
-        </div>
-        <div class="oferta-form-group">
-          <input type="text" name="employees" placeholder="Număr angajați">
-        </div>
-        <div class="oferta-form-group">
-          <textarea name="message" rows="4" placeholder="Mesaj"></textarea>
-        </div>
-        <button type="submit" class="btn-oferta-submit">Trimite Cererea de Ofertă</button>
-        <p class="oferta-form-note">Te vom contacta pentru detalii suplimentare.</p>
-        <input type="hidden" name="_next" value="https://awg.chen.ist/thank-you/">
-        <input type="hidden" name="_subject" value="Cerere Oferta Personalizata">
-      </form>
+      {% include offer-form.html %}
     </div>
   </div>
 </div>
@@ -203,6 +170,8 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
   border-radius: 16px;
   padding: 1.5rem;
   transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .oferta-service-card:hover {
@@ -235,6 +204,7 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
 
 .oferta-service-btn {
   display: inline-block;
+  margin-top: auto;
   padding: 0.4rem 1.2rem;
   border: 2px solid #FCC900;
   color: #1a1a1a;

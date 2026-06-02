@@ -1,0 +1,172 @@
+---
+layout: default
+bodyClass: "page-post"
+---
+
+{% include breadcrumbs.html %}
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <article class="post-article">
+        <header class="post-header">
+          <div class="post-meta">
+            <span class="post-date">{{ page.date | date: "%d %B %Y" }}</span>
+            {% if page.categories.size > 0 %}
+            <span class="post-category">{{ page.categories | first }}</span>
+            {% endif %}
+          </div>
+          <h1 class="post-title">{{ page.title }}</h1>
+        </header>
+
+        <div class="post-content content">
+          {{ content }}
+        </div>
+
+        <footer class="post-footer">
+          <a href="/noutati/" class="post-back-link">← Înapoi la Noutati</a>
+        </footer>
+      </article>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <div class="post-sidebar">
+        <div class="sidebar-cta-card">
+          <h4>Solicită Ofertă</h4>
+          <p>Descoperă soluțiile potrivite pentru afacerea ta.</p>
+          <a href="/solicita-oferta/" class="sidebar-btn sidebar-btn-primary">Solicită Ofertă</a>
+          <a href="/contact/" class="sidebar-btn sidebar-btn-secondary">Contactează-ne</a>
+        </div>
+
+        <div class="sidebar-recent-posts">
+          <h5>Articole Recente</h5>
+          <ul>
+            {% for post in site.posts limit:5 %}
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.post-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #f0ede4;
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-date {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.post-category {
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: #FCC900;
+  color: #1a1a1a;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.post-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.3;
+}
+
+.post-content {
+  line-height: 1.8;
+  color: #444;
+}
+
+.post-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e8e4da;
+}
+
+.post-back-link {
+  color: #1a1a1a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.post-back-link:hover {
+  color: #FCC900;
+}
+
+.post-sidebar {
+  position: sticky;
+  top: 2rem;
+}
+
+.sidebar-recent-posts {
+  background: #f8f7f3;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.sidebar-recent-posts h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888;
+  margin-bottom: 0.75rem;
+}
+
+.sidebar-recent-posts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-recent-posts li {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e8e4da;
+  font-size: 0.9rem;
+}
+
+.sidebar-recent-posts li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.sidebar-recent-posts a {
+  color: #1a1a1a;
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.sidebar-recent-posts a:hover {
+  color: #FCC900;
+}
+
+@media (max-width: 768px) {
+  .post-sidebar {
+    position: static;
+    margin-top: 2rem;
+  }
+
+  .post-title {
+    font-size: 1.6rem;
+  }
+}
+</style>

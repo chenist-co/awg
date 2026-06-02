@@ -4,18 +4,18 @@ title: Echipa
 permalink: /despre/echipa/
 ---
 
-# Echipa AWG Activ Consulting
+# Echipa AWG Active Consulting
 
 ## Experții tăi în servicii administrative
 
-Echipa AWG Activ Consulting este formată din profesioniști cu experiență vastă în domeniul contabilității, fiscalității și administrării afacerilor. Fiecare membru al echipei aduce expertiza și dedicarea necesară pentru a oferi servicii de cea mai înaltă calitate.
+Echipa AWG Active Consulting este formată din profesioniști cu experiență vastă în domeniul contabilității, fiscalității și administrării afacerilor. Fiecare membru al echipei aduce expertiza și dedicarea necesară pentru a oferi servicii de cea mai înaltă calitate.
 
 ## Consultant Principal
 
 ### Andreea Violeta Gheorghe
 **Consultant Principal**
 
-Andreea Violeta Gheorghe este consultant cu vastă experiență în consultanta financiara și legislația muncii, dedicată succesului clienților noștri. Cu o abordare personalizată și atenție la detalii, ea coordonează toate aspectele operaționale ale AWG Activ Consulting, aducând expertiza necesară pentru a gestiona cele mai complexe situații administrative.
+Andreea Violeta Gheorghe este consultant cu vastă experiență în consultanta financiara și legislația muncii, dedicată succesului clienților noștri. Cu o abordare personalizată și atenție la detalii, ea coordonează toate aspectele operaționale ale AWG Active Consulting, aducând expertiza necesară pentru a gestiona cele mai complexe situații administrative.
 
 Formată profesional în cadrul unor companii de top din industrie, Andreea combină cunoștințele teoretice solide cu experiența practică pentru a oferi soluții adaptate nevoilor fiecărui client.
 
@@ -65,7 +65,7 @@ Fiecare membru al echipei înțelege că succesul clientului este succesul nostr
 
 ## Dezvoltare Profesională
 
-Echipa AWG Activ Consulting beneficiază de:
+Echipa AWG Active Consulting beneficiază de:
 - Programe continue de formare profesională
 - Participare la conferințe de specialitate
 - Acces la cele mai noi instrumente și tehnologii

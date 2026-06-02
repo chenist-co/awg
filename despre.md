@@ -89,7 +89,7 @@ permalink: /despre/
     <h3>Prezența Noastră</h3>
   </div>
   <div class="section-content">
-    <p>AWG Activ Consulting menține birouri strategice în județul Ilfov, cu o prezență puternică în toată regiunea de sud a României. Această poziționare geografică ne permite să servim clienții eficient, menținând în același timp contactul personal care definește serviciile noastre.</p>
+    <p>AWG Active Consulting menține birouri strategice în județul Ilfov, cu o prezență puternică în toată regiunea de sud a României. Această poziționare geografică ne permite să servim clienții eficient, menținând în același timp contactul personal care definește serviciile noastre.</p>
     
     <div class="locations-cards">
       <div class="location-card">
@@ -171,19 +171,19 @@ permalink: /despre/
     <div class="partners-homepage-grid">
       <div class="partner-logo-card">
         <a href="https://rovision.ro/" target="_blank" rel="noopener" class="partner-link">
-          <img src="/assets/img/rovision-logo.jpg" alt="Rovision - Partner AWG Activ Consulting" class="partner-logo">
+          <img src="/assets/img/rovision-logo.jpg" alt="Rovision - Partner AWG Active Consulting" class="partner-logo">
         </a>
       </div>
       
       <div class="partner-logo-card">
         <a href="https://nextm.ro/" target="_blank" rel="noopener" class="partner-link">
-          <img src="/assets/img/nextm-logo.png" alt="NextM - Partner AWG Activ Consulting" class="partner-logo">
+          <img src="/assets/img/nextm-logo.png" alt="NextM - Partner AWG Active Consulting" class="partner-logo">
         </a>
       </div>
       
       <div class="partner-logo-card">
         <a href="https://rofixon.ro/" target="_blank" rel="noopener" class="partner-link">
-          <img src="/assets/img/rofixon-logo.jpg" alt="Rofixon - Partner AWG Activ Consulting" class="partner-logo">
+          <img src="/assets/img/rofixon-logo.jpg" alt="Rofixon - Partner AWG Active Consulting" class="partner-logo">
         </a>
       </div>
     </div>
@@ -192,11 +192,11 @@ permalink: /despre/
 
 ### Certificări {#certificări}
 
-AWG Activ Consulting este certificată conform standardelor internaționale de management, demonstrând angajamentul nostru față de calitatea serviciilor și integritatea în afaceri.
+AWG Active Consulting este certificată conform standardelor internaționale de management, demonstrând angajamentul nostru față de calitatea serviciilor și integritatea în afaceri.
 
 <div class="certifications-grid">
   <div class="certification-card">
-    <img src="/assets/img/awg-iso-9001.jpg" alt="Certificat ISO 9001 AWG Activ Consulting" class="certification-image">
+    <img src="/assets/img/awg-iso-9001.jpg" alt="Certificat ISO 9001 AWG Active Consulting" class="certification-image">
     <h4>ISO 9001:2015</h4>
     <p>Sistem de Management al Calității</p>
     <a href="/assets/pdf/AWG_ACTIVE_CONSULTING_S_R_L_CERTIFICAT_ISO_SUN_CERT_romana_9001.pdf" class="certification-download-btn" target="_blank" rel="noopener">
@@ -205,7 +205,7 @@ AWG Activ Consulting este certificată conform standardelor internaționale de m
   </div>
   
   <div class="certification-card">
-    <img src="/assets/img/awg-iso-37001.jpg" alt="Certificat ISO 37001 AWG Activ Consulting" class="certification-image">
+    <img src="/assets/img/awg-iso-37001.jpg" alt="Certificat ISO 37001 AWG Active Consulting" class="certification-image">
     <h4>ISO 37001:2016</h4>
     <p>Sistem de Management Anti-Mită</p>
     <a href="/assets/pdf/AWG_ACTIVE_CONSULTING-CERTIFICAT_ISO_SUN_CERT_RO_9001.pdf" class="certification-download-btn" target="_blank" rel="noopener">

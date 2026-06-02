@@ -1,0 +1,69 @@
+<form action="https://formspree.io/f/xkgkngwa" method="POST" class="oferta-form">
+  <div class="oferta-form-group">
+    <input type="text" name="company_name" placeholder="Nume companie" required>
+  </div>
+  <div class="oferta-form-group">
+    <input type="text" name="cui" placeholder="CUI">
+  </div>
+  <div class="oferta-form-row">
+    <div class="oferta-form-group">
+      <input type="text" name="contact_person" placeholder="Persoană de contact">
+    </div>
+    <div class="oferta-form-group">
+      <input type="tel" name="phone" placeholder="Telefon">
+    </div>
+  </div>
+  <div class="oferta-form-row">
+    <div class="oferta-form-group">
+      <input type="email" name="email" placeholder="Email" required>
+    </div>
+    <div class="oferta-form-group">
+      <input type="text" name="domain" placeholder="Domeniu activitate">
+    </div>
+  </div>
+  <div class="oferta-form-group">
+    <input type="text" name="employees" placeholder="Număr angajați">
+  </div>
+  <div class="oferta-form-group">
+    <textarea name="message" rows="4" placeholder="Mesaj"></textarea>
+  </div>
+  <div class="oferta-form-group oferta-form-check">
+    <label>
+      <input type="checkbox" name="marketing_consent" value="da">
+      Sunt de acord cu adăugarea în baza de date în scopuri de marketing.
+      <a href="/gdpr/">Politică de confidențialitate</a>
+    </label>
+  </div>
+  <button type="submit" class="btn-oferta-submit">Trimite Cererea de Ofertă</button>
+  <p class="oferta-form-note">Te vom contacta în cel mai scurt timp pentru detalii suplimentare.</p>
+  <input type="hidden" name="_next" value="https://awg.chen.ist/thank-you/">
+  <input type="hidden" name="_subject" value="Cerere Oferta Personalizata">
+</form>
+
+<style>
+.oferta-form-check {
+  margin: 0.5rem 0 1rem;
+}
+
+.oferta-form-check label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.oferta-form-check input[type="checkbox"] {
+  width: auto;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+  accent-color: #FCC900;
+}
+
+.oferta-form-check a {
+  color: #1a1a1a;
+  text-decoration: underline;
+}
+</style>

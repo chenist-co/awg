@@ -8,7 +8,7 @@ permalink: /gdpr/
 
 ## Utilizarea Cookie-urilor
 
-**AWG Activ Consulting respectă confidențialitatea dvs.** Acest website folosește doar cookie-uri strict necesare pentru funcționare și nu colectează date personale pentru urmărire sau marketing.
+**AWG Active Consulting respectă confidențialitatea dvs.** Acest website folosește doar cookie-uri strict necesare pentru funcționare și nu colectează date personale pentru urmărire sau marketing.
 
 ### Ce Cookie-uri Utilizăm
 
@@ -126,7 +126,7 @@ Pentru cereri specifice de ștergere a datelor din sistemul Formspre, puteți co
 
 ## Transparența Noastră
 
-### Angajamentul AWG Activ Consulting
+### Angajamentul AWG Active Consulting
 
 Credem în transparența completă privind utilizarea datelor dvs.:
 
@@ -153,7 +153,7 @@ Datele sunt folosite exclusiv pentru a vă răspunde și oferi servicii. Nu sunt
 
 ### Este formularul conform GDPR?
 
-**Da, 100%.** Atât AWG Activ Consulting, cât și Formspree sunt conforme cu toate cerințele GDPR.
+**Da, 100%.** Atât AWG Active Consulting, cât și Formspree sunt conforme cu toate cerințele GDPR.
 
 ---
 

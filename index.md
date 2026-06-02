@@ -1,5 +1,5 @@
 ---
-title: AWG Activ Consulting - Soluții Integrate în Servicii de Afaceri
+title: AWG Active Consulting - Soluții Integrate în Servicii de Afaceri
 layout: home
 description: Servicii specializate de consultanta financiara, HR și administrare de afaceri în România. Soluții administrative complete pentru succesul afacerii tale.
 intro_image: "images/illustrations/pointing.svg"

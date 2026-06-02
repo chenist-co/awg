@@ -1,10 +1,16 @@
 main:
-  - name: "Servici"
+  - name: "Servicii"
     url: "/servicii/"
     weight: 2
+  - name: "Despre"
+    url: "/despre/"
+    weight: 3
   - name: "Oferta"
     url: "/solicita-oferta/"
-    weight: 3
+    weight: 4
+  - name: "Noutati"
+    url: "/noutati/"
+    weight: 5
   - name: "Contact"
     url: "/contact/"
     weight: 6
@@ -13,6 +19,9 @@ footer:
   - name: "Acasă"
     url: "/"
     weight: 1
+  - name: "Noutati"
+    url: "/noutati/"
+    weight: 2
   - name: "Contact"
     url: "/contact/"
-    weight: 2
+    weight: 3

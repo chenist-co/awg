@@ -1,0 +1,151 @@
+---
+layout: default
+bodyClass: "page-noutati"
+---
+
+{% include breadcrumbs.html %}
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-9">
+      <h1 class="title mb-2">Noutati</h1>
+      <p class="text-muted mb-6">Cele mai recente articole, noutăți legislative și informații utile pentru afacerea ta.</p>
+
+      {% assign posts = site.posts %}
+      {% if posts.size > 0 %}
+        <div class="noutati-list">
+          {% for post in posts %}
+          <div class="noutati-card">
+            <div class="noutati-meta">
+              <span class="noutati-date">{{ post.date | date: "%d %B %Y" }}</span>
+              {% if post.categories.size > 0 %}
+              <span class="noutati-category">{{ post.categories | first }}</span>
+              {% endif %}
+            </div>
+            <h2 class="noutati-title">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+            <p class="noutati-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+            <a href="{{ post.url | relative_url }}" class="noutati-readmore">Citește mai mult →</a>
+          </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <div class="noutati-empty">
+          <p>Nu există articole momentan. Revino curând pentru noutăți legislative și sfaturi de afaceri.</p>
+        </div>
+      {% endif %}
+
+      <div class="content">{{ content }}</div>
+    </div>
+
+    <div class="col-12 col-md-3">
+      <div class="noutati-sidebar">
+        <div class="sidebar-cta-card">
+          <h4>Solicită Ofertă</h4>
+          <p>Descoperă soluțiile potrivite pentru afacerea ta.</p>
+          <a href="/solicita-oferta/" class="sidebar-btn sidebar-btn-primary">Solicită Ofertă</a>
+          <a href="/contact/" class="sidebar-btn sidebar-btn-secondary">Contactează-ne</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.noutati-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.noutati-card {
+  background: #fff;
+  border: 1px solid #e8e4da;
+  border-radius: 12px;
+  padding: 2rem;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.noutati-card:hover {
+  box-shadow: 0 8px 24px rgba(252, 201, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.noutati-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.noutati-date {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.noutati-category {
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: #FCC900;
+  color: #1a1a1a;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.noutati-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.noutati-title a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.noutati-title a:hover {
+  color: #FCC900;
+}
+
+.noutati-excerpt {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.noutati-readmore {
+  color: #1a1a1a;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.noutati-readmore:hover {
+  color: #FCC900;
+}
+
+.noutati-empty {
+  background: #f8f7f3;
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #888;
+}
+
+.noutati-sidebar {
+  position: sticky;
+  top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .noutati-sidebar {
+    position: static;
+    margin-top: 2rem;
+  }
+}
+</style>

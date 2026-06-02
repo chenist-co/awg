@@ -11,22 +11,153 @@ bodyClass: "page-service"
       <div class="service service-single">
         <h1 class="title">{{page.title}}</h1>
         <div class="content">{{content}}</div>
-        
-        <!-- Contact CTA -->
-        <div class="service-cta">
-          <div class="service-cta-content">
-            <h3>Ai nevoie de acest serviciu?</h3>
-            <p>Contactează-ne pentru o consultanță personalizată și să discutăm cum putem ajuta afacerea ta.</p>
-            <div class="service-cta-buttons">
-              <a href="/solicita-oferta/" class="service-cta-button service-cta-primary">Solicită Ofertă</a>
-              <a href="/contact/" class="service-cta-button service-cta-secondary">Contactează-ne</a>
-            </div>
-          </div>
+
+        <!-- Offer Form -->
+        <div id="trimite-cerere" class="service-offer-form">
+          <h3>Solicită Ofertă Personalizată</h3>
+          <p>Completează formularul de mai jos și îți vom trimite o ofertă adaptată nevoilor companiei tale.</p>
+          {% include offer-form.html %}
         </div>
-        
-        <!-- Contact Form -->
-        {% include contact-form.html %}
+      </div>
+    </div>
+
+    <!-- Sticky Sidebar -->
+    <div class="col-12 col-md-4">
+      <div class="service-sidebar">
+        <div class="sidebar-cta-card">
+          <h4>Ai nevoie de acest serviciu?</h4>
+          <p>Solicită o ofertă personalizată sau contactează-ne direct.</p>
+          <a href="#trimite-cerere" class="sidebar-btn sidebar-btn-primary">Solicită Ofertă</a>
+          <a href="/contact/" class="sidebar-btn sidebar-btn-secondary">Contactează-ne</a>
+        </div>
+        <div class="sidebar-contact-card">
+          <h5>Contact Direct</h5>
+          <p><a href="tel:0742057668">0742 057 668</a></p>
+          <p><a href="mailto:office@awgconsulting.ro">office@awgconsulting.ro</a></p>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
+<style>
+.service-sidebar {
+  position: sticky;
+  top: 2rem;
+}
+
+.sidebar-cta-card {
+  background: #fff;
+  border: 2px solid #FCC900;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 4px 16px rgba(252, 201, 0, 0.12);
+}
+
+.sidebar-cta-card h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.75rem;
+}
+
+.sidebar-cta-card p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.25rem;
+}
+
+.sidebar-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-bottom: 0.75rem;
+}
+
+.sidebar-btn-primary {
+  background: #FCC900;
+  color: #1a1a1a;
+  border: 2px solid #FCC900;
+}
+
+.sidebar-btn-primary:hover {
+  background: #e6b500;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.sidebar-btn-secondary {
+  background: transparent;
+  color: #1a1a1a;
+  border: 2px solid #1a1a1a;
+}
+
+.sidebar-btn-secondary:hover {
+  background: #1a1a1a;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar-contact-card {
+  background: #f8f7f3;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.sidebar-contact-card h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888;
+  margin-bottom: 0.75rem;
+}
+
+.sidebar-contact-card p {
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.sidebar-contact-card a {
+  color: #1a1a1a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.sidebar-contact-card a:hover {
+  color: #FCC900;
+}
+
+.service-offer-form {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #f0ede4;
+}
+
+.service-offer-form h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.service-offer-form > p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .service-sidebar {
+    position: static;
+    margin-bottom: 2rem;
+    order: -1;
+  }
+}
+</style>
