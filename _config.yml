@@ -3,8 +3,11 @@ baseurl: ''
 permalink: pretty
 title: 'AWG Active Consulting'
 description: 'Expert consulting services for accounting, taxation, HR and business administration in Romania'
+lang: ro
+locale: ro_RO
 
-logo:
+# (not "logo": jekyll-seo-tag reads site.logo as one image URL)
+header_logo:
   mobile: "assets/svg/logo-white.svg"
   mobile_height: "32px"
   mobile_width: "32px"
@@ -44,6 +47,11 @@ theme: null
 
 exclude:
   - Gemfile
+  - bin
+  - run.sh
+  - netlify.toml
+  - branding.md
+  - builtatlightspeed.json
   - Gemfile.lock
   - node_modules
   - vendor/bundle/

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: 'ro' }}">
 
 <head>
   <meta charset="utf-8">
@@ -14,16 +14,11 @@
   <!-- <link rel="preload" href="{{ '/assets/fonts/playfair-display.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin> -->
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
   
-  {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
-  {% if page.meta_title %}<meta property="og:title" content="{{ page.meta_title }}"/>{% else %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
-  <meta property="og:type" content="website"/>
-  <meta property="og:url" content="{{ url }}"/>
-  {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}"/>{% endif %}
-  {% if page.description %}<meta property="og:description" content="{{ page.description }}"/>{% endif %}
-  <meta name="twitter:card" content="summary"/>
-  {% if site.data.seo.meta_twitter_site %}<meta name="twitter:site" content="{{ site.seo.meta_twitter_site }}"/>{% endif %}
-  {% if site.data.seo.meta_twitter_creator %}<meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}"/>{% endif %}
-
+  {%- comment -%} title, description, canonical, Open Graph, Twitter card and JSON-LD.
+  Replaces a hand-written block whose og:url was always empty and whose Twitter
+  handles were the theme author's (@zerostaticio). {%- endcomment %}
+  {% seo title=false %}
+  {% feed_meta %}
 </head>
 
 <body class='page {{layout.bodyClass}}'>

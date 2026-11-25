@@ -196,7 +196,7 @@ AWG Active Consulting este certificată conform standardelor internaționale de 
 
 <div class="certifications-grid">
   <div class="certification-card">
-    <img src="/assets/img/awg-iso-9001.jpg" alt="Certificat ISO 9001 AWG Active Consulting" class="certification-image">
+    <img loading="lazy" decoding="async" src="/assets/img/awg-iso-9001.jpg" alt="Certificat ISO 9001 AWG Active Consulting" class="certification-image">
     <h4>ISO 9001:2015</h4>
     <p>Sistem de Management al Calității</p>
     <a href="/assets/pdf/AWG_ACTIVE_CONSULTING_S_R_L_CERTIFICAT_ISO_SUN_CERT_romana_9001.pdf" class="certification-download-btn" target="_blank" rel="noopener">
@@ -205,7 +205,7 @@ AWG Active Consulting este certificată conform standardelor internaționale de 
   </div>
   
   <div class="certification-card">
-    <img src="/assets/img/awg-iso-37001.jpg" alt="Certificat ISO 37001 AWG Active Consulting" class="certification-image">
+    <img loading="lazy" decoding="async" src="/assets/img/awg-iso-37001.jpg" alt="Certificat ISO 37001 AWG Active Consulting" class="certification-image">
     <h4>ISO 37001:2016</h4>
     <p>Sistem de Management Anti-Mită</p>
     <a href="/assets/pdf/AWG_ACTIVE_CONSULTING-CERTIFICAT_ISO_SUN_CERT_RO_9001.pdf" class="certification-download-btn" target="_blank" rel="noopener">

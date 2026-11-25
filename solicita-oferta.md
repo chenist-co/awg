@@ -13,9 +13,9 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
       <a href="#trimite-cerere" class="btn-oferta-cta">Primește Oferta</a>
     </div>
     <div class="col-12 col-md-5 oferta-hero-icons">
-      <img src="/assets/svg/icons/calculator.svg" alt="consultanta financiara" width="64" height="64">
-      <img src="/assets/svg/icons/document.svg" alt="Consultanta financiara" width="64" height="64">
-      <img src="/assets/svg/icons/briefcase.svg" alt="Afaceri" width="64" height="64">
+      <img loading="lazy" decoding="async" src="/assets/svg/icons/calculator.svg" alt="consultanta financiara" width="64" height="64">
+      <img loading="lazy" decoding="async" src="/assets/svg/icons/document.svg" alt="Consultanta financiara" width="64" height="64">
+      <img loading="lazy" decoding="async" src="/assets/svg/icons/briefcase.svg" alt="Afaceri" width="64" height="64">
     </div>
   </div>
 </div>
@@ -26,7 +26,7 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
   <div class="oferta-services-grid">
     <div class="oferta-service-card">
       <div class="oferta-service-icon">
-        <img src="/assets/svg/icons/accounting.svg" alt="consultanta financiara" width="64" height="64">
+        <img loading="lazy" decoding="async" src="/assets/svg/icons/accounting.svg" alt="consultanta financiara" width="64" height="64">
       </div>
       <h3>Consultanta financiara</h3>
       <div class="oferta-service-items">
@@ -40,7 +40,7 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
 
     <div class="oferta-service-card">
       <div class="oferta-service-icon">
-        <img src="/assets/svg/icons/hr.svg" alt="HR" width="64" height="64">
+        <img loading="lazy" decoding="async" src="/assets/svg/icons/hr.svg" alt="HR" width="64" height="64">
       </div>
       <h3>HR & SALARIZARE</h3>
       <div class="oferta-service-items">
@@ -54,7 +54,7 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
 
     <div class="oferta-service-card">
       <div class="oferta-service-icon">
-        <img src="/assets/svg/icons/ssm.svg" alt="SSM" width="64" height="64">
+        <img loading="lazy" decoding="async" src="/assets/svg/icons/ssm.svg" alt="SSM" width="64" height="64">
       </div>
       <h3>SSM / PSI</h3>
       <div class="oferta-service-items">
@@ -67,7 +67,7 @@ description: Servicii administrative complete, adaptate firmei tale - consultant
 
     <div class="oferta-service-card">
       <div class="oferta-service-icon">
-        <img src="/assets/svg/icons/onrc.svg" alt="ONRC" width="64" height="64">
+        <img loading="lazy" decoding="async" src="/assets/svg/icons/onrc.svg" alt="ONRC" width="64" height="64">
       </div>
       <h3>ONRC & SERVICII JURIDICE</h3>
       <div class="oferta-service-items">
