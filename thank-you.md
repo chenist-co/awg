@@ -24,4 +24,4 @@ Your message has been sent successfully. We appreciate you taking the time to co
 
 ---
 
-[← Back to Home](/) | [View Our Services](/services/) | [About Us](/about/)
+[← Back to Home](/) | [View Our Services](/servicii/) | [About Us](/despre/)
